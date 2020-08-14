@@ -74,6 +74,16 @@ header > a:hover {
   text-align: right;
 }
 
+.link--footer {
+  flex-grow: 1;
+  font-size: 1em;
+}
+
+.last-text {
+  text-align: center;
+}
+
+
 main {
   padding: 5px 16px;
   word-wrap:break-word;
