@@ -82,7 +82,7 @@ main {
 footer {
   padding: 35px 0 25px 0;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #666666;
 }
 
@@ -160,17 +160,25 @@ article img {
 */
 
 #lab_social_icon_footer #social-fb:hover {
-  color: #3B5998;
+  color: #cc3030;
 }
 
 #lab_social_icon_footer #social-tw:hover {
   color: #4099FF;
 }
 
-#lab_social_icon_footer #social-gp:hover {
-  color: #d34836;
+#lab_social_icon_footer #social-dr:hover {
+  color: #992de0;
+}
+
+#lab_social_icon_footer #social-gh:hover {
+  color: #f39c12;
+}
+
+#lab_social_icon_footer #social-dv:hover {
+  color: #0cb845;
 }
 
 #lab_social_icon_footer #social-em:hover {
-  color: #f39c12;
+  color: #d7eb26;
 }
