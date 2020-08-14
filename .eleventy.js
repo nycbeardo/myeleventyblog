@@ -46,5 +46,13 @@ function extractExcerpt(article) {
     }
   });
 
+  const Image = require("@11ty/eleventy-img");
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addJavaScriptFunction("myResponsiveImage", function(src, options) {
+    // returns Promise
+    return Image(src, options);
+  });
+};
+
   return excerpt;
 }
