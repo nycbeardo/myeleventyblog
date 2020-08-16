@@ -101,6 +101,7 @@ footer {
 h1,
 h2 {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   margin: 25px 0 2px 0;
 }
 
