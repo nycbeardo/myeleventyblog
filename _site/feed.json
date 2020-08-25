@@ -1,0 +1,13 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Objector",
+  "home_page_url": "https://objector.dev.com/",
+  "feed_url": "https://objector.dev/feed.json",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "author": {
+    "name": "Boaty McBoatFace",
+    "url": "https://objector.dev/about/"
+  },
+  "items": [
+  ]
+}
