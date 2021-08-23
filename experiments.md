@@ -2,15 +2,15 @@
 layout: base-layout.njk
 
 --- 
-# Work in Progress:
+## Work in Progress:
 
 
 {% image "MELAN8.gif", "Post Display Animation" %}
 
-[View on GitHub](https://github.com/nycbeardo/weather-app)
+[**GitHub**](https://github.com/nycbeardo/shiny-engine)   [**CodePen**](https://codepen.io/nycbeardo/pen/oNZMKbm)
 
 
 
 {% image "tailwindcaster.gif", "Forecast App" %}
 
-[View on GitHub](https://github.com/nycbeardo/weather-app)
+[**GitHub**](https://github.com/nycbeardo/weather-app) 
