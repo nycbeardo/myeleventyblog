@@ -7,15 +7,17 @@ body {
   margin: 0;
   padding: 10px 8px;
   font-size: 19px;
-  font-family: 'Lato', sans-serif;
-  background-color: #dfdbdb;
-  background: linear-gradient(270deg, #eaa484, #9acdce);
+  font-family: 'Mukta', sans-serif;
+  background-color: #ffffff;
+  background: linear-gradient(270deg, #fff4f4, #ffffff);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 10s ease infinite;
   -moz-animation: AnimationName 10s ease infinite;
   animation: AnimationName 10s ease infinite;
 }
+
+/*animation for body & background */
 
 @-webkit-keyframes AnimationName {
   0%{background-position:0% 36%}
@@ -42,7 +44,7 @@ body {
   }
 }
 
-header {
+body header {
   display: flex;
   align-items: center; /* Vertically align */
   padding: 5px 16px;
@@ -50,9 +52,13 @@ header {
   background-color: #7c0b14;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Mukta', sans-serif;
+ 
+  
 }
 
+
+/* header and links */
 header > a:link,
 header > a:visited,
 header > a:hover {
@@ -69,7 +75,19 @@ header > a:hover {
   font-size: 2em;
 }
 
+.link--blog {
+  flex-grow: 1;
+  font-size: 1em;
+  text-align: right;
+}
+
 .link--about {
+  flex-grow: 1;
+  font-size: 1em;
+  text-align: right;
+}
+
+.link--experiments {
   flex-grow: 1;
   font-size: 1em;
   text-align: right;
@@ -100,7 +118,7 @@ footer {
 
 h1,
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Mukta', sans-serif;
   margin: 25px 0 2px 0;
 }
 
@@ -193,4 +211,43 @@ article img {
 
 #lab_social_icon_footer #social-em:hover {
   color: #d7eb26;
+}
+
+
+a#scroll-to-top.dmtop.global-radius {
+  
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#7c0b14; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+
+.vertline {
+  border-right: 1px solid rgb(255, 255, 255);
+
+}
+
+
+a.links {
+  border-radius: 3px;
 }

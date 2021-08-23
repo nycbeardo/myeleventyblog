@@ -9,13 +9,5 @@
     "url": "https://objector.dev/about/"
   },
   "items": [
-    {
-      
-      "id" : "https://daringfireball.net/linked/2020/08/25/pixel-5-rumors",
-      "url" : "https://daringfireball.net/linked/2020/08/25/pixel-5-rumors",
-      "title" : "Rumors Suggest Pixel 5 Is Slower Than the Pixel 4, Continues to Use Same Camera Sensor Since 2016",
-      "content_html" : "\n<p>Ron Amadeo, writing at Ars Technica:</p>\n\n<blockquote>\n  <p>The other piece of hardware you can put in the “upgrade”-with-scare-quotes category is the Pixel 5’s Snapdragon 765G SoC. The Pixel 4 has a Snapdragon 855 SoC, and since Qualcomm chips perform similarly no matter what phone is built around them, we don’t need device-specific benchmarks to know the Pixel 5 will be slower than the Pixel 4. […] With the Pixel 5, Google is making a transition from a flagship device to a midrange phone, which leads to awkward comparisons like this.</p>\n</blockquote>\n\n<p>Plastic back too, supposedly. If all of this is true, what phone is someone supposed to buy if they want top-shelf hardware and the pure no-junk Android experience?</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://arstechnica.com/gadgets/2020/08/rumor-pixel-5-is-slower-than-the-pixel-4-has-same-camera-as-the-pixel-2/\">arstechnica.com/gadgets/2020/08/rumor-pixel-5-is-slower…</a></strong></em></p>\n",
-      "date_published" : "2020-08-25T14:50:34Z"
-   }
   ]
 }
