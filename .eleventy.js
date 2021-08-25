@@ -9,7 +9,7 @@ const pluginTailwindCSS = require("eleventy-plugin-tailwindcss")
 
 
 async function imageShortcode(src, alt) {
-  let sizes = "(min-width: 1024px) 100vw, 50vw"
+  let sizes = "(min-width: 1024px) 100vw, 50vw" // Default sizes for mobile and desktop viewing
   let srcPrefix = `./_site/images/`
   src = srcPrefix + src
   console.log(`Generating image(s) from:  ${src}`)
@@ -22,11 +22,9 @@ async function imageShortcode(src, alt) {
     formats: [ 'gif', 'jpeg'],
     urlPath: "/images/",
     outputDir: "./_site/images/",
-    /* =====
-    Now we'll make sure each resulting file's name will 
-    make sense to you. **This** is why you need 
-    that `path` statement mentioned earlier.
-    ===== */
+   
+
+    /* path + resulting image file name is dealt with in this function */
     filenameFormat: function (id, src, width, format, options) {
       const extension = path.extname(src)
       const name = path.basename(src, extension)
@@ -35,6 +33,7 @@ async function imageShortcode(src, alt) {
   })  
   let lowsrc = metadata.jpeg[0]
   let highsrc = metadata.jpeg[metadata.jpeg.length - 1]  
+  /* output image file and resulting <tag>, will be shown in html files */
   return `<picture>
     ${Object.values(metadata).map(imageFormat => {
       return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
