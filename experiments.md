@@ -5,12 +5,11 @@ layout: base-layout.njk
 ## Work in Progress:
 
 
-{% image "MELAN8.gif", "Post Display Animation" %}
+!["shiny"](https://i.ibb.co/YWvvYCd/ezgif-com-gif-maker.gif)
 
 [**GitHub**](https://github.com/nycbeardo/shiny-engine)   [**CodePen**](https://codepen.io/nycbeardo/pen/oNZMKbm)
 
 
-
-{% image "tailwindcaster.gif", "Forecast App" %}
+!["tailwidcaster"](https://i.ibb.co/QkLfxbS/tailwindcaster.gif)
 
 [**GitHub**](https://github.com/nycbeardo/weather-app) 
