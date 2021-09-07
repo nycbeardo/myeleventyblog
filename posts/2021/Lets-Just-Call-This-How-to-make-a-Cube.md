@@ -10,7 +10,7 @@ tags: ['post']
 
 One of the ways you get comfortable with your craft as a developer is to build projects. 
 
-The logic behind this is that you will learn and retain more knowledge as you build till your heart is content, get stuck, break things, fix them, etc. 
+The logic behind this is that you will learn and retain more knowledge as you build till your heart's content, get stuck, break things, fix them, etc. 
 
 Its considered a much better way to grasp new concepts than the alternative: 
 
