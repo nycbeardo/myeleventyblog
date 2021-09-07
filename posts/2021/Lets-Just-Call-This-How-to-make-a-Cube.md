@@ -47,6 +47,7 @@ This can be done with a series of divs like so:
 
 !["show me the code"](https://i.ibb.co/xGXPypK/cubediv.png)
 
+
 Just to give a brief explanation about the structure: 
 
 "Wrapper" div is like your container. Its holding all of the other divs youll need for the cube. Everything will be neat and consistent as long as you dont tweak it too much.
