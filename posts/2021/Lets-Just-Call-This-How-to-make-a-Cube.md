@@ -34,7 +34,7 @@ With that being said, I want to give you a glimpse into one of my so-called expe
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-This is just a cube but as you can see theres more to it. Digging deeper into my new obession with CSS Art, I decided to try not only building various shapes and patterns but also taking the time to add animations and transitions to them without the use of JavaScript (for now). 
+This is just a cube but as you can see theres more to it. Digging deeper into my new obsession with CSS Art, I decided to try building various shapes and patterns while also taking the time to learn more about adding animations and transitions to them without the use of JavaScript (for now). 
 
 I had two main goals to make this work:
 
