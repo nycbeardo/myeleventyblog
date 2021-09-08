@@ -1,13 +1,13 @@
-{
-  "version": "https://jsonfeed.org/version/1.1",
-  "title": "Objector",
-  "home_page_url": "https://objector.dev.com/",
-  "feed_url": "https://objector.dev/feed.xml",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
-  "author": {
-    "name": "Montique Stevens",
-    "url": "https://objector.dev/about/"
-  },
-  "items": [
-  ]
-}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Objector</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://objector.dev/feed.xml" rel="self"/>
+  <link href="https://objector.dev.com/"/>
+  <updated>2021-09-08T21:25:41Z</updated>
+  <id>https://objector.dev.com/</id>
+  <author>
+    <name>Montique Stevens</name>
+    <email>me@example.com</email>
+  </author>
+</feed>
