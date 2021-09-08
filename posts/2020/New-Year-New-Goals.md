@@ -2,7 +2,7 @@
 layout: post-layout.njk 
 title: New Year, New Goals
 date: 2020-01-08
-tags: ['post']
+tags: 'post'
 ---
 <!-- Excerpt Start -->
 ***Resolutions are one of those things that we all try to do but never finish.***

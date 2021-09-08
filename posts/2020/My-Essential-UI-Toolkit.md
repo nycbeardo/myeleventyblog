@@ -2,7 +2,7 @@
 layout: post-layout.njk 
 title: My Essential UI Toolset
 date: 2020-02-06
-tags: ['post']
+tags: 'post'
 ---
 
 ##  <span style="color:green">"A good tool improves the way you work. A great tool improves the way you think."</span>

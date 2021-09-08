@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Objector</title>
-  <subtitle>Personal blog of Montique Stevens, an NYC-Based Developer/Designer</subtitle>
-  <link href="https://objector.dev/feed.xml" rel="self"/>
-  <link href="https://objector.dev/"/>
-  <updated>2020-08-25T14:19:34.025Z</updated>
-  <id>https://objector.dev/</id>
-  <author>
-    <name>Montique Stevens</name>
-    <email>hey@nycbeardo.design</email>
-  </author>
-</feed>
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Objector",
+  "home_page_url": "https://objector.dev.com/",
+  "feed_url": "https://objector.dev/feed.xml",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "author": {
+    "name": "Montique Stevens",
+    "url": "https://objector.dev/about/"
+  },
+  "items": [
+  ]
+}

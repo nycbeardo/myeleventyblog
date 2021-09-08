@@ -2,7 +2,7 @@
 layout: post-layout.njk 
 title: A Short Primer on Design Systems
 date: 2019-08-15
-tags: ['post']
+tags: post
 ---
 
 ***You may have heard the term Design Systems, or maybe other terms such as Design Language, Pattern Library,  or even Component Design.***

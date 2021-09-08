@@ -2,7 +2,7 @@
 layout: post-layout.njk 
 title: Combating Racial Bias in UX Design
 date: 2020-08-19
-tags: ['post']
+tags: 'post'
 ---
  
 <!-- Excerpt Start -->
