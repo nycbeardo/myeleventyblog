@@ -11,10 +11,42 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+        #loader {
+            border: 12px solid white solid;
+            border-right: 16px solid #B3E5FC;
+            border-bottom: 16px solid #7c0b14;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            animation: spin 0.5s linear infinite;
+        }
+          
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+          
+        .center {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.)
+        }
+    </style>
+
+
 
 </head> 
+
+
 <body> 
- 
+<div id="loader" class="center"></div>
+
   <header>
   <a href="/" class="link--home">Objector</a>
 
@@ -25,6 +57,8 @@
   <a href="/Experiments" class="link--experiments">Experiments</a>
   
 </header>
+
+
   <main> 
     <article>
   <h1>New Year, New Goals</h1> 
@@ -95,6 +129,17 @@ By building a foundation, I hope to avoid tutorial hell and move on to topics su
 <footer>Made with love by Montique Stevens in <a href="https://www.11ty.dev/" class="link--footer">Eleventy</a> with a dash of CSS, HTML, and a sprinkle of Font Awesome. Copyright 2021 ©  </footer> 
 
 <script src="./custom.js"></script>
+<script>
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+      document.querySelector("body").style.visibility = "hidden";
+      document.querySelector("#loader").style.visibility = "visible";
+  } else {
+      document.querySelector("#loader").style.display = "none";
+      document.querySelector("body").style.visibility = "visible";
+  }
+};</script>
+
 
 </body> 
 </html>
