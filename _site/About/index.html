@@ -48,12 +48,13 @@
   <br>
   
   <h1 class="last-text">Lets Connect!</h1>
+  
 <section id="lab_social_icon_footer">
 <!-- Include Font Awesome Stylesheet in Header -->
 <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"   rel="stylesheet">
 <div class="container">
         <div class="text-center center-block">
-                <a href="https://nycbeardo.design"><i id="social-fb" class="fas fa-plus-square fa-3x social"></i></a>
+               <!-- <a href="https://nycbeardo.design"><i id="social-fb" class="fas fa-plus-square fa-3x social"></i></a> -->
 	            <a href="https://twitter.com/nycbeardo"><i id="social-tw" class="fab fa-twitter-square fa-3x social"></i></a>
 	            <a href="https://polywork.com/mstevens"><i id="social-dr" class="fas fa-external-link-square-alt fa-3x social"></i></a>
 	            <a href="https://github.com/nycbeardo"><i id="social-gh" class="fab fa-github-square fa-3x social"></i></a>
@@ -66,12 +67,30 @@
 <a href="#" id="scroll-to-top" class="dmtop global-radius">Top</a> <!-- scroll button -->
 <br>
 
+<form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <div hidden aria-hidden="true">
+    <label>
+      Don’t fill this out if you're human: 
+      <input name="bot-field" />
+    </label>
+  </div>
+  <label for="email">Enter your email for updates</label>
+  <div>
+    <input type="email" name="email" placeholder="Email"  id="email" required />
+    <button type="submit">Subscribe</button>
+  </div>
+</form>
+
+
+
 
 <footer>Made with love by Montique Stevens with <a href="https://www.11ty.dev/" class="link--footer">Eleventy</a>, a dash of my custom coded HTML, CSS, and a sprinkle of Font Awesome for the icons. 
 NodeJS provides the modules necessary in the creation of my blog. Fonts for Body and Header use Source Serif Pro, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
 Copyright 2019-2021 ©  </footer> 
 
 <script src="./custom.js"></script>
+<script src="./subscribe.js"></script>
+
 
 
 </body> 
