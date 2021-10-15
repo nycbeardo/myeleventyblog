@@ -13,7 +13,7 @@ eleventyNavigation:
 
 <div class="form">
    <h2 class="form"></h2>
-   <form accept-charset="UTF-8" action="https://getform.io/f/{https://getform.io/f/dbb6af44-42e0-4bc3-b071-a18c639a296f}" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+   <form accept-charset="UTF-8" action="https://getform.io/f/{dbb6af44-42e0-4bc3-b071-a18c639a296f}" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
       <div>
          <label>Full Name</label>
          <div>
