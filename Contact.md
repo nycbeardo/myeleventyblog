@@ -36,7 +36,7 @@ eleventyNavigation:
       </div>
       <div class="upload">
          <label class="form">Upload document:</label>
-         <input type="file" name="file" enctype="multipart/form-data" required="required">
+         <input type="file" name="file" required="required">
       </div>
       <br>
       <input type="hidden" name="utf8" value="✓">
