@@ -45,7 +45,10 @@ body {
     max-width: 768px;
     margin: 0 auto;
   }
-
+  div.form {
+    max-width: 768px;
+    margin: 0 auto;
+}
  
 }
 
