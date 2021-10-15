@@ -81,19 +81,19 @@ header > a:hover {
 
 .link--blog {
   flex-grow: 1;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
 }
 
 .link--about {
   flex-grow: 1;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
 }
 
 .link--experiments {
   flex-grow: 1;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
 }
 
