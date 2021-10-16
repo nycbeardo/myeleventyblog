@@ -39,6 +39,16 @@ eleventyNavigation:
          <input type="file" name="file" required="required">
       </div> 
       <br>
+      <div id="fooDiv">
+<label for="foo">Leave this field blank</label>
+<input type="text" name="foo" id="foo">
+</div>
+<script>
+(function () {
+    var e = document.getElementById("fooDiv");
+    e.parentNode.removeChild(e);
+})();
+</script>
       <input type="hidden" name="utf8" value="✓">
       <button class="submission" type="submit">SUBMIT</button>
    </form>
