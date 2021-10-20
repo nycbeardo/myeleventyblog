@@ -234,28 +234,7 @@ h3  {
   color: #d7eb26;
 }
 
-/* scroll to top button */
-a#scroll-to-top.dmtop.global-radius {
-  
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* This makes sure it does not overlap */
-  background-color:white;
-  border: 5px solid #7c0b14; /* Sets background color */
-  color: black; /* Sets ext color */
-  cursor: grab; /* Mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  /* border-radius: 10px; Rounded corners */
-  font-size: 18px; /* Increase font size */
-  font-weight: 700; /* Bold font for button text */
-  text-decoration: none; /* no underline */
-} 
 
-a#scroll-to-top.dmtop.global-radius:hover {
-  background-color: black;
-  color: white;
-}
 
 .grid { 
   display: grid;
