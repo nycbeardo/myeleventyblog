@@ -57,9 +57,10 @@ body header {
   display: flex;
   align-items: center; /* Vertically align */
   padding: 5px 16px;
-  color: white;
-  background-color: #7c0b14;
-  border-radius: 8px;
+  color: #7c0b14;;
+  background-color: white;
+  /*border-radius: 8px; */
+  border: 8px solid #7c0b14;;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-family: 'Source Serif Pro', serif;
  
@@ -71,8 +72,9 @@ body header {
 header > a:link,
 header > a:visited,
 header > a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 header > a:hover {
