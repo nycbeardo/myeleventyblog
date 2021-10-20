@@ -10,8 +10,8 @@ body {
   font-family: 'Source Serif Pro', serif;
 
   /* colors, style & size for background animation */
-  background-color: #ffffff;
-  background: linear-gradient(270deg, #fff4f4, #ffffff); 
+  background-color: white;
+  background: linear-gradient(270deg, #ffffff, #ffd4d4); 
   background-size: 400% 400%;
 
   /* animation declared in body selector */
@@ -80,7 +80,7 @@ header > a:hover {
 
 header > a:hover {
   text-decoration: underline;
-  font-weight: 700;
+  
 }
 
 .link--home {
@@ -93,18 +93,21 @@ header > a:hover {
   flex-grow: 1;
   font-size: 0.8em;
   text-align: right;
+  font-weight: 700;
 }
 
 .link--about {
   flex-grow: 1;
   font-size: 0.8em;
   text-align: right;
+  font-weight: 700;
 }
 
 .link--experiments {
   flex-grow: 1;
   font-size: 0.8em;
   text-align: right;
+  font-weight: 700;
 }
 
 .link--footer {
