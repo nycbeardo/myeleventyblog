@@ -83,6 +83,14 @@ header > a:hover {
   
 }
 
+header a#current {
+  color: #7c0b14;
+}
+
+.dark header a#current {
+  color: #E63E6D;
+}
+
 .link--home {
   flex-grow: 1;
   font-size: 2em;
