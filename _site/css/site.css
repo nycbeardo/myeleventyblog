@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 10px 8px;
   font-size: 19px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'IBM Plex Mono', monospace;
 
   /* colors, style & size for background animation */
   background-color: white;
@@ -62,7 +62,7 @@ body header {
   /*border-radius: 8px; */
   border: 8px solid #7c0b14;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'IBM Plex Mono', monospace;
  
   
 }
@@ -93,27 +93,27 @@ header a#current {
 
 .link--home {
   flex-grow: 1;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 900;
 }
 
 .link--blog {
   flex-grow: 1;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: right;
   font-weight: 700;
 }
 
 .link--about {
   flex-grow: 1;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: right;
   font-weight: 700;
 }
 
 .link--experiments {
   flex-grow: 1;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: right;
   font-weight: 700;
 }
@@ -130,13 +130,13 @@ header a#current {
 
 p#subtitle{
   font-weight: 900;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: -3.0em;
 }
 
 p#subtitle1 {
   font-weight: 900;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 
@@ -150,7 +150,7 @@ p#subtitle1 {
 	position: relative;
 	left: 100%;
 	transform: translateX(-100%);
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .dark{
 	color:white;
@@ -229,12 +229,12 @@ footer {
 
 h1,
 h2 {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'IBM Plex Mono', monospace;
   margin: 25px 0 2px 0;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h1 > a:link,
