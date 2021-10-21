@@ -120,9 +120,23 @@ header > a:hover {
   text-align: center;
 }
 
+p#subtitle{
+  font-weight: 900;
+  font-size: 1.0em;
+  margin-top: -3.0em;
+}
+
+p#subtitle1 {
+  font-weight: 900;
+  font-size: 1.0em;
+}
+
+
+
 /*  ---------------DARK MODE THEME--------------------------------- */
 #dark-button{
 	margin-bottom: 8px;
+  margin-top: 20px;
   border: 2px solid black;
   width: 100px;
   height: 40px;
@@ -133,7 +147,7 @@ header > a:hover {
 }
 .dark{
 	color:white;
-	background-color: #121212;
+	background-color: #181717;
    
 }
 

@@ -13,3 +13,5 @@ In addition I believe in promoting new methodologies as well as understanding on
 When I'm not building things, you can find me engaging with other techies on social media, going to meetups, enjoying nature, and/or looking for the next great thing to eat and write about on my food blog
 
 If you feel like reaching out about anything you see here, to network, or just chat, feel free to hit the links down below:
+
+
