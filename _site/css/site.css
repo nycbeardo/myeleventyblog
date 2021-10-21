@@ -129,14 +129,14 @@ header a#current {
 }
 
 p#subtitle{
-  
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 14px;
   margin-top: -3.0em;
 }
 
 p#subtitle1 {
-  
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 p em strong {
