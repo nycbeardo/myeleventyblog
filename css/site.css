@@ -139,7 +139,11 @@ p#subtitle1 {
   font-size: 13px;
 }
 
-
+p em strong {
+  /* font-style: normal; */
+  font-weight: 300;
+  font-size: 15px;
+}
 
 /*  ---------------DARK MODE THEME--------------------------------- */
 #dark-button{
