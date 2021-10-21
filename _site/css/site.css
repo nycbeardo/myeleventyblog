@@ -57,10 +57,10 @@ body header {
   display: flex;
   align-items: center; /* Vertically align */
   padding: 5px 16px;
-  color: #7c0b14;;
+  color: #7c0b14;
   background-color: white;
   /*border-radius: 8px; */
-  border: 8px solid #7c0b14;;
+  border: 8px solid #7c0b14;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-family: 'Source Serif Pro', serif;
  
@@ -123,27 +123,46 @@ header > a:hover {
 /*  ---------------DARK MODE THEME--------------------------------- */
 #dark-button{
 	margin-bottom: 8px;
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
 	position: relative;
 	left: 100%;
 	transform: translateX(-100%);
+  font-family: 'Source Serif Pro', serif;
 }
-
 .dark{
 	color:white;
-	background-color: #082032;
+	background-color: #121212;
    
 }
+
+/* blog post title links */
 .dark h1 >a:link, h1 >a:visited {
   color: #E63E6D;
+}
+
+.dark h1 >a:hover {
+  color: #E63E6Da2;
 }
 
 .dark h1 >a:visited {
   color: #E63E6D;
 }
 
+/* header attributes */
+
+.dark header {
+  background-color: black;
+  border: 8px solid #E63E6D;
+  
+}
+.dark header a {
+  color: white;
+}
 
 
-
+/* footer attributes */
 .dark #lab_social_icon_footer a {
   color:white;
 }
@@ -156,12 +175,24 @@ header > a:hover {
   color: #E63E6D;
 }
 
+/* links in paragrpahs */
 .dark p a {
   color: #E63E6D;
 }
 
+/* theme for dark mode toggle */
+.dark #dark-button {
+  background-color: #B42B51;
+  color: white;
+  border: 2px solid white;
+}
 
 /*  -----------------END OF DARK MODE THEME------------------------------- */
+
+
+
+
+
 
 main {
   padding: 5px 16px;
