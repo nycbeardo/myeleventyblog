@@ -11,7 +11,7 @@ body {
 
   /* colors, style & size for background animation */
   background-color: white;
-  background: linear-gradient(270deg, #ffffff, #dadada); 
+  /* background: linear-gradient(270deg, #ffffff, #dadada); */
   background-size: 400% 400%;
 
   /* animation declared in body selector */
@@ -120,6 +120,48 @@ header > a:hover {
   text-align: center;
 }
 
+/*  ---------------DARK MODE THEME--------------------------------- */
+#dark-button{
+	margin-bottom: 8px;
+	position: relative;
+	left: 100%;
+	transform: translateX(-100%);
+}
+
+.dark{
+	color:white;
+	background-color: #082032;
+   
+}
+.dark h1 >a:link, h1 >a:visited {
+  color: #E63E6D;
+}
+
+.dark h1 >a:visited {
+  color: #E63E6D;
+}
+
+
+
+
+.dark #lab_social_icon_footer a {
+  color:white;
+}
+
+.dark footer {
+  color: white;
+}
+
+.dark footer a {
+  color: #E63E6D;
+}
+
+.dark p a {
+  color: #E63E6D;
+}
+
+
+/*  -----------------END OF DARK MODE THEME------------------------------- */
 
 main {
   padding: 5px 16px;
@@ -145,6 +187,7 @@ h1 {
 
 h1 > a:link,
 h1 > a:visited {
+  color: #7c0b14;
   text-decoration: none;
 }
 
