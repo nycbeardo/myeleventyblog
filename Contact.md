@@ -7,9 +7,10 @@ eleventyNavigation:
   order: 4
 ---
 
-# Contact Me
+<h1 id="contact">Contact Me</h1>
 
  If you want to reach out directly about the content here, to collaborate, or anything else, fill out the form below:
+
 
 <div class="form">
    <h2 class="form"></h2>
@@ -31,7 +32,7 @@ eleventyNavigation:
       <div>
          <label>Message:</label>
          <div>
-            <textarea  type="text" name="message" placeholder="Enter your message" required="required"></textarea>
+            <textarea  class="forminput3" type="text" name="message" placeholder="Enter your message" required="required"></textarea>
          </div>
       </div>
      <div class="upload">

@@ -2,7 +2,7 @@
 layout: base-layout.njk 
 --- 
 
-# About
+<h1 id="about">About</h1>
   
 As a Design centric developer based in New York City, my passions/areas of focus include digital art, information design, usability testing, and tech design ed for underrepresented groups.
 
