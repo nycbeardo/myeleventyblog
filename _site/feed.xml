@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Objector</title>
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-  <link href="https://objector.dev/feed.xml" rel="self"/>
-  <link href="https://objector.dev.com/"/>
-  <updated>2021-10-22T15:06:19Z</updated>
-  <id>https://objector.dev.com/</id>
+  <link href="https://objector.netlify.com/feed.xml" rel="self"/>
+  <link href="https://objector.netlify.com/"/>
+  <updated>2021-10-23T23:57:26Z</updated>
+  <id>https://objector.netlify.com/</id>
   <author>
     <name>Montique Stevens</name>
     <email>me@example.com</email>

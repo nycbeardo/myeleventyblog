@@ -1,12 +1,12 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Objector",
-  "home_page_url": "https://objector.dev.com/",
-  "feed_url": "https://objector.dev/feed.xml",
+  "home_page_url": "https://objector.netlfiy.com/",
+  "feed_url": "https://objector.netlify.com/feed.xml",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "author": {
     "name": "Montique Stevens",
-    "url": "https://objector.dev/about/"
+    "url": "https://objector.netlify.com/about/"
   },
   "items": [
   ]
