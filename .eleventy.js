@@ -65,6 +65,7 @@ module.exports = function (eleventyConfig) {
   // Folders to copy to output folder
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("/dark.js");
+  eleventyConfig.addPassthroughCopy("/custom.js");
 
   eleventyConfig.addPlugin(pluginTailwindCSS, {
       src: "src/css/site.css",

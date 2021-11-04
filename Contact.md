@@ -51,6 +51,7 @@ eleventyNavigation:
 })();
 </script>
       <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
       <button class="submission" type="submit">SUBMIT</button>
    </form>
    <br>
