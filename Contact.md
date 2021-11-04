@@ -35,14 +35,10 @@ eleventyNavigation:
             <textarea  class="forminput3" type="text" name="message" placeholder="Enter your message" required="required"></textarea>
          </div>
       </div>
-     <div class="upload">
-         <label class="form">Upload document:</label>
-         <input type="file" name="file" required="required">
-      </div> 
       <br>
       <div id="fooDiv">
 <label for="foo">Leave this field blank</label>
-<input type="text" name="foo" id="foo">
+<input type="text" name="foo" id="foo" required="required">
 </div>
 <script>
 (function () {
@@ -50,9 +46,12 @@ eleventyNavigation:
     e.parentNode.removeChild(e);
 })();
 </script>
-      <input type="hidden" name="utf8" value="✓">
-      <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+      <input type="hidden" name="utf8" value="✓" required="required">
+      <input type="hidden" id="captchaResponse" name="g-recaptcha-response" required="required">
+      <div class="g-recaptcha" data-sitekey="6LeksBQdAAAAAIgTry-Z1M7lRGvb7xd90dxyZHni"></div>
+      <br>
       <button class="submission" type="submit">SUBMIT</button>
+   
    </form>
    <br>
 </div>
