@@ -53,6 +53,9 @@ body {
 .rc-anchor-light { 
   transform:scale(0.85); 
   -webkit-transform:scale(0.85);
+  width: 235px;
+  background: #7c0b14!important; 
+  color: #fff!important;
  
 }
 
@@ -274,13 +277,19 @@ h2 {
   font-size: 1.5em;
 }
 
+a{
+  cursor: grab; 
+}
+
 a:link,
 a:visited {
   color: #7c0b14;
+  
 }
 
 a:hover {
   color: #7c0b1493;
+  cursor: grab;
 }
 
 time {
@@ -434,4 +443,21 @@ button.submission {
   
 
 
+}
+
+.cursor {
+  position: fixed;
+  width: 0;
+  height: 0;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width 0.2s, height 0.2s;
+}
+
+.cursor.link {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f50000;
 }

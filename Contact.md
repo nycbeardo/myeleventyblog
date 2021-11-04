@@ -48,9 +48,9 @@ eleventyNavigation:
 </script>
       <input type="hidden" name="utf8" value="✓" required="required">
       <input type="hidden" id="captchaResponse" name="g-recaptcha-response" required="required">
-      <div class="g-recaptcha" style="margin-top: 5px;" data-sitekey="6LeksBQdAAAAAIgTry-Z1M7lRGvb7xd90dxyZHni"></div>
+      <div class="g-recaptcha" data-size="compact" style="margin-top: 5px;" data-sitekey="6LeksBQdAAAAAIgTry-Z1M7lRGvb7xd90dxyZHni" data-callback="enableBtn"></div>
       <br>
-      <button class="submission" type="submit">SUBMIT</button>
+      <button class="submission" type="submit" id="btnsubmit">SUBMIT</button>
    
    </form>
    <br>
