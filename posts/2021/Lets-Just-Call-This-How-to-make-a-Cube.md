@@ -45,7 +45,7 @@ To get step one accomplished I needed to structure my code in a way that when I 
 
 This can be done with a series of divs like so: 
 
-!["show me the code"](https://i.ibb.co/xGXPypK/cubediv.png)
+!["show me the code"](https://images2.imgbox.com/99/75/jNf4H47z_o.png)
 
 
 Just to give a brief explanation about the structure: 
@@ -64,13 +64,13 @@ The perspective property for a lack of a better way to explain it, allows you to
 
 Using the [**Transform**](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) property allows you to manipulate the element by altering how it moves, going by angles, scaling and rotation included. This is what helped me with showing each individual face like so: 
 
-!["more code"](https://i.ibb.co/fDmbpnp/cubediv.png)
+!["more code"](https://images2.imgbox.com/01/22/Jq3Mt3Lj_o.png)
 
 And last but not least, we need to actually animate this cube to either rotate or spin using keyframes, which is better explained here: [**CSS Keyframes**](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 
 Once you understand the basics of keyframes, you can modify and define the waypoints in order to create custom animations like this: 
 
-!["spin spin"](https://i.ibb.co/gJMDnMR/cubediv1.png)
+!["spin spin"](https://images2.imgbox.com/13/fa/Z2pPSi54_o.png)
 
 Some things you need to keep in mind:
 

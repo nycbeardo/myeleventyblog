@@ -2,16 +2,16 @@
 layout: base-layout.njk
 
 --- 
-## Work in Progress:
 
 
 
-!["shiny"](https://i.ibb.co/YWvvYCd/ezgif-com-gif-maker.gif)
+
+!["shiny"](https://images2.imgbox.com/a4/bf/hWnLjwp5_o.gif)
 
 [**GitHub**](https://github.com/nycbeardo/shiny-engine)   [**CodePen**](https://codepen.io/nycbeardo/pen/oNZMKbm)
 
 
-!["tailwidcaster"](https://i.ibb.co/QkLfxbS/tailwindcaster.gif)
+!["tailwidcaster"](https://images2.imgbox.com/3f/06/2gsU0EWk_o.gif)
 
 [**GitHub**](https://github.com/nycbeardo/weather-app) 
 
