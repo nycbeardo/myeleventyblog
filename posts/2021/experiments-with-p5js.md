@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: Color Experiments with p5.js
-date: 2021-12-03
+date: 2021-12-06
 tags: 'post'
 ---
 <!-- Excerpt Start -->
