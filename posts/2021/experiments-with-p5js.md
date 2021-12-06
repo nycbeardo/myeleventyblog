@@ -37,7 +37,7 @@ Now for those who like a little risk...
 I would explain the steps myself but I feel this video would do the trick.
 [**Tim Rodenbröker**](https://twitter.com/timrodenbroeker) is considered one of the best generative artists and creative programmers, and does a wonderful job of explaining how to set up your local environment to build in p5.js using VS Code: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vj9nDja8ZdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Blinking LEDs](https://images2.imgbox.com/d7/d8/cH6Ni2Cl_o.png)](http://www.youtube.com/watch?v=vj9nDja8ZdQ "Blinking LEDs")
 
 Once you set that up, you'll be on your way to building projects on your local machine instead of relying on the online editor.
 
