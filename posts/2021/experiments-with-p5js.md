@@ -51,7 +51,7 @@ What you're seeing is a piece of generative art created using p5.js and displyed
 
 While it appears that it is moving on its own without any additional input from me, this piece of code is the one that's resposible for the "randomness" you're seeing in the screenshot:
 
-!["code snippet"](https://images2.imgbox.com/00/b7/K3Mrl61O_o.png)
+!["code snippet"](https://images2.imgbox.com/aa/06/RU2CSMir_o.png)
 
 As you can see, you'll see the word random appears three times. The first two times the random function is declared to control the individual cells on the x and y cooridnates, and the third time determines the colors defined in the array I set for the squares. In p5, when the random function is called, it returns a random value every time. This is what we want if we're trying to create visual pieces without any predetermined values defined in your code.
 
