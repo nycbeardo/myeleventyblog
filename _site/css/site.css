@@ -50,6 +50,11 @@ body {
     margin: 0 auto;
 }
 
+iframe{
+  max-width: 768px;
+    margin: 0 auto;
+}
+
 .rc-anchor-light { 
   transform:scale(0.85); 
   -webkit-transform:scale(0.85);
