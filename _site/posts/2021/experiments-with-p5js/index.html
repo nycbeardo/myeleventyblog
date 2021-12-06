@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8">
+  <title>Objector</title> 
+  <meta name="description" content="A website about tech, design, and related topics"> 
+  <meta name="author" content="Montique Stevens"> 
+  <meta name="keywords" content="programming, design, blog, software">
+  <meta name="og:url" content="https://objector.dev">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <script src="https://www.google.com/recaptcha/api.js?render=r6LdyahQdAAAAABcDYhQQpvwufOUoHlGSYVGxOikP"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+ 
+
+
+
+   <link rel="stylesheet" href="/css/site.css">
+
+ <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+</head> 
+
+
+<body> 
+ 
+
+  <header>
+  <a href="/" class="link--home">Objector</a>
+
+  <a href="/About" class="link--about">About</a>
+ <br>
+ <br>
+  <a href="/Contact" class="link--blog">Contact</a>
+<br>
+<br>
+   <a href="/Experiments" class="link--experiments">Experiments</a>
+  
+</header>
+
+<br>
+	<button id="dark-button" onclick="darkToggle()"></button>
+
+  <main> 
+    <article>
+  <h1>Color Experiments with p5.js</h1> 
+  <time datetime="2021-12-03T00:00:00.000Z">December 3, 2021</time> 
+  <!-- Excerpt Start -->
+<p><em><strong>Continuing my focus on improving my skillset through creative coding...</strong></em></p>
+<!-- Excerpt End -->
+<p>Continuing my focus on improving my skillset through creative coding, I decided to take the plunge into learning one of the more interesting JavaScript libraries that exists, aka p5.js.</p>
+<p><a href="https://p5js.org/"><strong>p5.js</strong></a> is used by programmers, artists, and students to learn JavaScript through creative coding and it is one of the most accessible libraries out there that regardless of your skill level you can pick it up via the robust documentation provided by the Processing foundation.</p>
+<p>As someone who always had a passion for art and design before entering into tech, naturally this piqued my interest. This wasnt the first time I dealt with p5 and processing, as I had experience with it in college but there's a difference between being made to do something and organically discovering how to do it on your own.</p>
+<p>With that being said the key for me was to go straight to the documentation and read it for myself. This helped me get a grasp of the things that I wanted to do with p5.js and how I could go about building it out.</p>
+<p>Creative coding though more art focused still requires you as a programmer to learn how to identify a problem and apply the solutions you need to solve that problem.</p>
+<p>So after a few weeks of playing with p5 in both the live editor and in VS code (which I'll provide you ways to set it up on your local machine), I decided to make something a little bit more fancier than just 2d primitives moving around via GraphGL.</p>
+<p>Before we get into that there are two ways for you to go about using p5 right out the gate:</p>
+<h3>1. Using the browser editor:</h3>
+<p>On the <a href="https://p5js.org/" title="home page for p5"><strong>p5</strong></a> home page you'll find a link to use the editor if you want to play with it right away without any unneccessary hurdles. In my opinion this is a good way to find out if you want to continue playing with it on your local machine or not.</p>
+<p><img src="https://images2.imgbox.com/cc/4d/jsnwWu4L_o.png" alt="&quot;p5 editor&quot;"></p>
+<h3>2. Using VS Code:</h3>
+<p>Now for those who like a little risk...</p>
+<p><img src="https://media1.giphy.com/media/AZ1PPDF8uO9MI/giphy.gif?cid=ecf05e471aww5hi7b7q9e3cu9drcab9b2qp4a05d8uj0jvc7&amp;rid=giphy.gif&amp;ct=g" alt="&quot;risky risky&quot;"></p>
+<p>I would explain the steps myself but I feel this video would do the trick.
+<a href="https://twitter.com/timrodenbroeker"><strong>Tim Rodenbröker</strong></a> is considered one of the best generative artists and creative programmers, and does a wonderful job of explaining how to set up your local environment to build in p5.js using VS Code:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vj9nDja8ZdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Once you set that up, you'll be on your way to building projects on your local machine instead of relying on the online editor.</p>
+<p>The sky is the limit when it comes to what you want to create, although it wouldn't hurt to brainstorm some ideas or search the web for inspiration before jumping right in.
+To visualize an example of that I'll show you what I been playing with as of late.</p>
+<p><img src="https://images2.imgbox.com/9f/b9/9WBjLP2b_o.gif" alt="&quot;color grid&quot;"></p>
+<p>What you're seeing is a piece of generative art created using p5.js and displyed in HTML. I got the inspiration from a few projects I've seen online, and expanded on the features of the grid itself without compromising it's basic structure.</p>
+<p>While it appears that it is moving on its own without any additional input from me, this piece of code is the one that's resposible for the &quot;randomness&quot; you're seeing in the screenshot:</p>
+<p><img src="https://images2.imgbox.com/00/b7/K3Mrl61O_o.png" alt="&quot;code snippet&quot;"></p>
+<p>As you can see, you'll see the word random appears three times. The first two times the random function is declared to control the individual cells on the x and y cooridnates, and the third time determines the colors defined in the array I set for the squares. In p5, when the random function is called, it returns a random value every time. This is what we want if we're trying to create visual pieces without any predetermined values defined in your code.</p>
+<p>For more of a look at the rest of the code you can check out my repo <a href="https://github.com/nycbeardo/p5colours"><strong>here</strong></a> and take a shot at creating your own version if you choose.</p>
+
+</article>
+
+
+
+    
+  </main> 
+
+  <br>
+  <br>
+  
+  <h1 class="last-text">Lets Connect!</h1>
+  
+<section id="lab_social_icon_footer">
+<!-- Include Font Awesome Stylesheet in Header -->
+<link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"   rel="stylesheet">
+<div class="container">
+        <div class="text-center center-block">
+               <!-- <a href="https://nycbeardo.design"><i id="social-fb" class="fas fa-plus-square fa-3x social"></i></a> -->
+	            <a href="https://twitter.com/nycbeardo"><i id="social-tw" class="fab fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://polywork.com/mstevens"><i id="social-dr" class="fas fa-external-link-square-alt fa-3x social"></i></a>
+	            <a href="https://github.com/nycbeardo"><i id="social-gh" class="fab fa-github-square fa-3x social"></i></a>
+              <a href="https://dev.to/nycbeardo"><i id="social-dv" class="fab fa-dev fa-3x social"></i></a>
+             <a href="https://calendly.com/mksdesign"><i id="social-em" class="fas fa-share-square fa-3x social"></i></a>
+    </div>
+</div>
+</section>
+
+
+<br>
+
+
+
+
+
+
+<footer>Made with love by Montique Stevens with <a href="https://www.11ty.dev/" class="link--footer">Eleventy</a>, a dash of my custom coded HTML/CSS/JS and a sprinkle of Font Awesome for the icons. 
+NodeJS provides the modules necessary for my blog. TailwindCSS is used for additional styling. The fonts for Body and Header use IBM Plex Mono, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
+Copyright 2019-2021© </footer> 
+
+
+<script src="/custom.js"></script>
+<script src="/dark.js"></script>
+<script src="/cursor.js"></script>
+
+
+
+
+</body> 
+</html>
