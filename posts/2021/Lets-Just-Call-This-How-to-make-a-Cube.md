@@ -8,11 +8,11 @@ tags: 'post'
 ***TW: This is not a tutorial,think of it as beardcrumbs***
 <!-- Excerpt End -->
 
-One of the ways you get comfortable with your craft as a developer is to build projects. 
+One of the ways you get comfortable with your craft as a developer is to build projects.
 
-The logic behind this is that you will learn and retain more knowledge as you build till your heart's content, get stuck, break things, fix them, etc. 
+The logic behind this is that you will learn and retain more knowledge as you build till your heart's content, get stuck, break things, fix them, etc.
 
-Its considered a much better way to grasp new concepts than the alternative: 
+It’s considered a much better way to grasp new concepts than the alternative:
 
 <br>
 
@@ -20,12 +20,12 @@ Its considered a much better way to grasp new concepts than the alternative:
 
 <br>
 
-I wont go deeper into that since I know what most of you are really here for: 
+I won't go deeper into that since I know what most of you are really here for: 
 
 !["show me the code"](https://sayingimages.com/wp-content/uploads/angry-man-in-the-phone-show-me-the-money-meme.jpg)
 
 
-With that being said, I want to give you a glimpse into one of my so-called experiments I been working on.
+With that being said, I want to give you a glimpse into one of the so-called experiments I have been working on.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="eYRBMWe" data-user="nycbeardo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/nycbeardo/pen/eYRBMWe">
@@ -50,7 +50,7 @@ This can be done with a series of divs like so:
 
 Just to give a brief explanation about the structure: 
 
-"Wrapper" div is like your container. Its holding all of the other divs youll need for the cube. Everything will be neat and consistent as long as you dont tweak it too much.
+"Wrapper" div is like your container. It’s holding all of the other divs you’ll need for the cube. Everything will be neat and consistent as long as you don’t tweak it too much.
 
 "Cube" div is the main div for your cube. Basically a wrapper in a wrapper. 
 
@@ -74,7 +74,7 @@ Once you understand the basics of keyframes, you can modify and define the waypo
 
 Some things you need to keep in mind:
 
-+ Position is key! If you're comfortable with CSS then you already know the rules for position heirarchy with divs involved.
++ The position is key! If you're comfortable with CSS then you already know the rules for position hierarchy with divs involved.
 
 + You'll need to play with perspectives to get a full grasp of what you can do with it.
 
