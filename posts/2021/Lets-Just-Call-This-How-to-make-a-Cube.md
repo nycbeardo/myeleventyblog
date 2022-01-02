@@ -82,4 +82,4 @@ Some things you need to keep in mind:
 
 <br>
 
-Think of this as a nudge or little hints to get you familiar with this type of styling in your code. Hopefully this helps get you started at least, and you'll be able to build from there.  
+Think of this as a nudge or little hints to get you familiar with this type of styling in your code. Hopefully, this helps get you started at least, and you'll be able to build from there.  
