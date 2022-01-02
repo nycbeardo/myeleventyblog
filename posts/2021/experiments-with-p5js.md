@@ -10,18 +10,17 @@ tags: 'post'
 
 Continuing my focus on improving my skillset through creative coding, I decided to take the plunge into learning one of the more interesting JavaScript libraries that exists, aka p5.js. 
 
-[**p5.js**](https://p5js.org/) is used by programmers, artists, and students to learn JavaScript through creative coding and it is one of the most accessible libraries out there that regardless of your skill level you can pick it up via the robust documentation provided by the Processing foundation.
+[**p5.js**](https://p5js.org/)is used by programmers, artists, and students to learn JavaScript through creative coding and it is one of the most accessible libraries out there that regardless of your skill level you can pick it up via the robust documentation provided by the Processing Foundation.
 
-As someone who always had a passion for art and design before entering into tech, naturally this piqued my interest. This wasnt the first time I dealt with p5 and processing, as I had experience with it in college but there's a difference between being made to do something and organically discovering how to do it on your own. 
+As someone who always had a passion for art and design before entering into tech, naturally this piqued my interest. This wasn’t the first time I dealt with p5 and processing, as I had experience with it in college but there's a difference between being made to do something and organically discovering how to do it on your own.
 
-With that being said the key for me was to go straight to the documentation and read it for myself. This helped me get a grasp of the things that I wanted to do with p5.js and how I could go about building it out. 
+With that being said the key for me was to go straight to the documentation and read it for myself. This helped me get a grasp of the things that I wanted to do with p5.js and how I could go about building it out.
 
-Creative coding though more art focused still requires you as a programmer to learn how to identify a problem and apply the solutions you need to solve that problem.
+Creative coding though more art-focused still requires you as a programmer to learn how to identify a problem and apply the solutions you need to solve that problem.
 
-So after a few weeks of playing with p5 in both the live editor and in VS code (which I'll provide you ways to set it up on your local machine), I decided to make something a little bit more fancier than just 2d primitives moving around via GraphGL. 
+So after a few weeks of playing with p5 in both the live editor and in VS code (which I'll provide you ways to set it up on your local machine), I decided to make something a little bit fancier than just 2d primitives moving around via GraphGL.
 
-Before we get into that there are two ways for you to go about using p5 right out the gate: 
-
+Before we get into that there are two ways for you to go about using p5 right out the gate:
 ### 1. Using the browser editor: 
 
 On the [**p5**](https://p5js.org/  "home page for p5") home page you'll find a link to use the editor if you want to play with it right away without any unneccessary hurdles. In my opinion this is a good way to find out if you want to continue playing with it on your local machine or not.
@@ -41,9 +40,7 @@ I would explain the steps myself but I feel this video would do the trick.
 
 Once you set that up, you'll be on your way to building projects on your local machine instead of relying on the online editor.
 
-
-The sky is the limit when it comes to what you want to create, although it wouldn't hurt to brainstorm some ideas or search the web for inspiration before jumping right in. 
-To visualize an example of that I'll show you what I been playing with as of late. 
+The sky is the limit when it comes to what you want to create, although it wouldn't hurt to brainstorm some ideas or search the web for inspiration before jumping right in. To visualize an example of that I'll show you what I have been playing with as of late
 
 !["color grid"](https://images2.imgbox.com/9f/b9/9WBjLP2b_o.gif)
 
@@ -53,6 +50,6 @@ While it appears that it is moving on its own without any additional input from 
 
 !["code snippet"](https://images2.imgbox.com/aa/06/RU2CSMir_o.png)
 
-As you can see, you'll see the word random appears three times. The first two times the random function is declared to control the individual cells on the x and y cooridnates, and the third time determines the colors defined in the array I set for the squares. In p5, when the random function is called, it returns a random value every time. This is what we want if we're trying to create visual pieces without any predetermined values defined in your code.
+As you can see, you'll see the word random appears three times. The first two times the random function is declared to control the individual cells on the x and y coordinates, and the third time determines the colors defined in the array I set for the squares. In p5, when the random function is called, it returns a random value every time. This is what we want if we're trying to create visual pieces without any predetermined values defined in your code.
 
 For more of a look at the rest of the code you can check out my repo [**here**](https://github.com/nycbeardo/p5colours) and take a shot at creating your own version if you choose.
