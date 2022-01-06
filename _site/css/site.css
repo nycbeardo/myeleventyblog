@@ -468,9 +468,9 @@ button.submission {
 }
 
 
-.iframe-container {
+div.iframe-container {
   overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 45%;
   position: relative;
 }
 
@@ -481,7 +481,9 @@ button.submission {
   position: absolute;
   top: 0;
   width: 100%;
-}
+  height: 50%;
+  
+  }
 
 
 p img {

@@ -9,8 +9,15 @@ layout: base-layout.njk
 
 [**GitHub**](https://github.com/nycbeardo/shiny-engine)   [**CodePen**](https://codepen.io/nycbeardo/pen/oNZMKbm)
 
+<br>
+
 
 !["tailwidcaster"](https://images2.imgbox.com/3f/06/2gsU0EWk_o.gif)
 
 [**GitHub**](https://github.com/nycbeardo/weather-app) 
+
+<br>
+
+!["outdoordiningrater"](https://images2.imgbox.com/74/32/km54UN6m_o.gif)
+<br>
 
