@@ -482,3 +482,8 @@ button.submission {
   top: 0;
   width: 100%;
 }
+
+
+p img {
+  width: 50%;
+}

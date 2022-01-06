@@ -9,7 +9,7 @@ const pluginTailwindCSS = require("eleventy-plugin-tailwindcss")
 
 
 async function imageShortcode(src, alt) {
-  let sizes = "(min-width: 1024px) 100vw, 50vw" // Default sizes for mobile and desktop viewing
+  let sizes = "(min-width: 900px) 100vw, 50vw" // Default sizes for mobile and desktop viewing
   let srcPrefix = `./_site/images/`
   src = srcPrefix + src
   console.log(`Generating image(s) from:  ${src}`)
@@ -21,8 +21,9 @@ async function imageShortcode(src, alt) {
     widths: [600, 900, 1500],
     formats: [ 'gif', 'jpeg', 'png'],
     urlPath: "/images/",
-    outputDir: "./_site/images/",
+    outputDir: "./_site/images/",//
    
+ 
 
     /* path + resulting image file name is dealt with in this function */
     filenameFormat: function (id, src, width, format, options) {
