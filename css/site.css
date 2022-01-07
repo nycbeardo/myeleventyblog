@@ -3,12 +3,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 body {
   margin: 0;
   padding: 10px 8px;
   font-size: 19px;
-  /* font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+  
 
   /* colors, style & size for background animation */
   background-color: white;
@@ -79,8 +80,8 @@ body header {
   /*border-radius: 8px; */
   border: 8px solid #7c0b14;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  /* font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+  
   
 }
 
@@ -181,8 +182,8 @@ p em strong {
 	position: relative;
 	left: 100%;
 	transform: translateX(-100%);
-  /* font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+  
 }
 .dark{
 	color:white;
@@ -261,8 +262,7 @@ footer {
 
 h1,
 h2 {
-  /*font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+font-family: 'IBM Plex Mono', monospace; /* body fonts */
   margin: 25px 0 2px 0;
 }
 
@@ -415,8 +415,8 @@ input.forminput1 {
   border-radius: 8px;
   border: 3px solid #000000;
   font-size: 0.6em;
-  /*font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+  
 }
 
 input.forminput2 {
@@ -427,8 +427,8 @@ input.forminput2 {
   border-radius: 8px;
   border: 3px solid #000000;
   font-size: 0.6em;
-  /*font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+
 }
 
 textarea.forminput3 {
@@ -439,8 +439,8 @@ textarea.forminput3 {
   border-radius: 8px;
   border: 3px solid #000000;
   font-size: 0.7em;
-  /*font-family: 'IBM Plex Mono', monospace; /* body fonts */
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* body fonts */
+
 }
 
 button.submission {
