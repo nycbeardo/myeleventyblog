@@ -63,6 +63,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
+  eleventyConfig.addWatchTarget("./sass/");
+
+  eleventyConfig.addPassthroughCopy("./css");
+
   // Folders to copy to output folder
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("/dark.js");
