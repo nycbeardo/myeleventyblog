@@ -33,7 +33,7 @@
   }
 }
 /* for header */
-/* header inks */
+/* header links */
 /* -----for subtitle text in main page---- */
 /* -------------end of subtitle text----------- */
 /*  ---------------DARK MODE THEME--------------------------------- */
@@ -100,9 +100,14 @@ header a#current {
   color: #7c0b14;
 }
 
+/*  ---------------DARK MODE THEME--------------------------------- */
 .dark {
+  /* header attributes and /* blog post title links */
   color: white;
   background-color: #181717;
+  /* footer attributes */
+  /* links in paragrpahs */
+  /* theme for dark mode toggle */
 }
 .dark header {
   background-color: black;
@@ -141,10 +146,12 @@ header a#current {
   border: 2px solid white;
 }
 
+/*  -----------------END OF DARK MODE THEME------------------------------- */
 .link--home {
   flex-grow: 1;
   font-size: 1.5em;
   font-weight: 900;
+  width: auto;
 }
 
 .link--blog {
@@ -152,6 +159,7 @@ header a#current {
   font-size: 0.7em;
   text-align: right;
   font-weight: 700;
+  width: auto;
 }
 
 .link--about {
@@ -159,6 +167,7 @@ header a#current {
   font-size: 0.7em;
   text-align: right;
   font-weight: 700;
+  width: auto;
 }
 
 .link--experiments {
@@ -166,6 +175,7 @@ header a#current {
   font-size: 0.7em;
   text-align: right;
   font-weight: 700;
+  width: auto;
 }
 
 .link--footer {
