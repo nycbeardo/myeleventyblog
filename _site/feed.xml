@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Objector</title>
-  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <subtitle></subtitle>
   <link href="https://objector.netlify.com/feed.xml" rel="self"/>
-  <link href="https://objector.netlify.com/"/>
-  <updated>2022-01-10T19:42:03Z</updated>
+  <link href="https://objector.netlify.com"/>
+  <updated>2022-01-10T22:30:19Z</updated>
   <id>https://objector.netlify.com/</id>
   <author>
     <name>Montique Stevens</name>
-    <email>me@example.com</email>
+    <email>montiquestevens@gmail.com</email>
   </author>
 </feed>

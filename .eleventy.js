@@ -53,6 +53,8 @@ async function imageShortcode(src, alt) {
 // module.exports, add lines needed for each plugin to work properly
 module.exports = function (eleventyConfig) {
 
+  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+
   eleventyConfig.addFilter('dateIso', date => {
     return moment(date).toISOString();
   });
@@ -85,11 +87,7 @@ module.exports = function (eleventyConfig) {
   // === Liquid needed if `markdownTemplateEngine` **isn't** changed from Eleventy default
   eleventyConfig.addJavaScriptFunction("image", imageShortcode)
 
-  eleventyConfig.addPlugin(pluginRss, {
-    posthtmlRenderOptions: {
-      closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
-    }
-  });
+  eleventyConfig.addPlugin(pluginRss);
 };
 
 function extractExcerpt(article) {
