@@ -51,6 +51,15 @@
   
 </header>
 
+<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+  <defs>
+    <filter id="marker-shape">
+      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+    </filter>
+  </defs>
+</svg>
+
 <br>
 	<button id="dark-button" onclick="darkToggle()"></button>
 
@@ -112,6 +121,7 @@ Different shades are used to represent creativity and imagination.</p>
 	            <a href="https://github.com/nycbeardo"><i id="social-gh" class="fab fa-github-square fa-3x social"></i></a>
               <a href="https://dev.to/nycbeardo"><i id="social-dv" class="fab fa-dev fa-3x social"></i></a>
              <!-- <a href="https://calendly.com/mksdesign"><i id="social-em" class="fas fa-share-square fa-3x social"></i></a> -->
+             <!-- <a href="https://objector.netlify.com/feed.xml"><i id="social-em" class="fas fa-square fa-3x rss"></i></a> -->
     </div>
 </div>
 </section>
@@ -119,7 +129,7 @@ Different shades are used to represent creativity and imagination.</p>
 
 <div class="iframe-container" style="height="169.64" background:white;"><iframe loading="lazy" src="https://objector.substack.com/embed" ></iframe></div>
 <footer>Made with love by Montique Stevens with <a href="https://www.11ty.dev/" class="link--footer">Eleventy</a>, a dash of my custom HTML, JS, SASS/CSS and a sprinkle of Font Awesome icons. 
-Deployed with Netlify CMS. TailwindCSS is used for additional styling. Fonts for Body and Header are IBM Plex Mono, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
+Deployed with Netlify. TailwindCSS is used for additional styling. Fonts for Body and Header are IBM Plex Mono, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
 Copyright &copy; 2019-<script>document.write(new Date().getFullYear())</script> Montique Stevens, All Rights Reserved </footer> 
 
 

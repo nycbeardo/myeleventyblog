@@ -2,16 +2,20 @@
 layout: base-layout.njk 
 --- 
 
+
+
 <h1 id="about">About</h1>
-  
-As a Design centric developer based in New York City, my passions/areas of focus include digital art, information design, usability testing, and tech design ed for underrepresented groups.
+<br>
 
-I believe in advocating for good design and technology that is easy to use, provides a enjoyable experience and most importantly has good social impact for society at large.
+<h2>Who Am I?</h2>
+<br>
+<p>As a <span class="realistic-marker-highlight">Creative Technologist</span> based in New York City, my passions/areas of focus include <span class="realistic-marker-highlight">web development,</span> 
+ creative coding, interface design, and tech design education for underrepresented groups.</p>
 
-In addition I believe in promoting new methodologies as well as understanding one another and fair collaboration is crucial when it comes to the products and services we build. Thoughtful design and equality in tech and design are extremely important in today's ever connected world.
+<h2>Credence</h2>
+<br>
+I believe in the idea that good design and accessible technology that is easy to use, provides a enjoyable experience and most importantly has <span class="realistic-marker-highlight">good social impact</span> for society at large.
 
-When I'm not building things, you can find me engaging with other techies on social media, going to meetups, enjoying nature, and/or looking for the next great thing to eat and write about on my food blog
+In addition, I embrace the idea of new methodologies as well as understanding one another and <span class="realistic-marker-highlight">fair collaboration</span> is crucial when it comes to the products and services we build. Thoughtful design and <span class="realistic-marker-highlight">equality in tech</span> are extremely important in today's ever connected world.
 
-If you feel like reaching out about anything you see here, to network, or just chat, feel free to hit the links down below:
-
-
+When I'm not building things, you can find me engaging with other techies on the web, at meetups, roaming in the woods, or looking for the next great thing to eat or listen to.

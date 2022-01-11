@@ -51,16 +51,30 @@
   
 </header>
 
+<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+  <defs>
+    <filter id="marker-shape">
+      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+    </filter>
+  </defs>
+</svg>
+
 <br>
 	<button id="dark-button" onclick="darkToggle()"></button>
 
   <main> 
     <h1 id="about">About</h1>
-<p>As a Design centric developer based in New York City, my passions/areas of focus include digital art, information design, usability testing, and tech design ed for underrepresented groups.</p>
-<p>I believe in advocating for good design and technology that is easy to use, provides a enjoyable experience and most importantly has good social impact for society at large.</p>
-<p>In addition I believe in promoting new methodologies as well as understanding one another and fair collaboration is crucial when it comes to the products and services we build. Thoughtful design and equality in tech and design are extremely important in today's ever connected world.</p>
-<p>When I'm not building things, you can find me engaging with other techies on social media, going to meetups, enjoying nature, and/or looking for the next great thing to eat and write about on my food blog</p>
-<p>If you feel like reaching out about anything you see here, to network, or just chat, feel free to hit the links down below:</p>
+<br>
+<h2>Who Am I?</h2>
+<br>
+<p>As a <span class="realistic-marker-highlight">Creative Technologist</span> based in New York City, my passions/areas of focus include <span class="realistic-marker-highlight">web development,</span> 
+ creative coding, interface design, and tech design education for underrepresented groups.</p>
+<h2>Credence</h2>
+<br>
+I believe in the idea that good design and accessible technology that is easy to use, provides a enjoyable experience and most importantly has <span class="realistic-marker-highlight">good social impact</span> for society at large.
+<p>In addition, I embrace the idea of new methodologies as well as understanding one another and <span class="realistic-marker-highlight">fair collaboration</span> is crucial when it comes to the products and services we build. Thoughtful design and <span class="realistic-marker-highlight">equality in tech</span> are extremely important in today's ever connected world.</p>
+<p>When I'm not building things, you can find me engaging with other techies on the web, at meetups, roaming in the woods, or looking for the next great thing to eat or listen to.</p>
 
 
     
@@ -83,6 +97,7 @@
 	            <a href="https://github.com/nycbeardo"><i id="social-gh" class="fab fa-github-square fa-3x social"></i></a>
               <a href="https://dev.to/nycbeardo"><i id="social-dv" class="fab fa-dev fa-3x social"></i></a>
              <!-- <a href="https://calendly.com/mksdesign"><i id="social-em" class="fas fa-share-square fa-3x social"></i></a> -->
+             <!-- <a href="https://objector.netlify.com/feed.xml"><i id="social-em" class="fas fa-square fa-3x rss"></i></a> -->
     </div>
 </div>
 </section>
@@ -90,7 +105,7 @@
 
 <div class="iframe-container" style="height="169.64" background:white;"><iframe loading="lazy" src="https://objector.substack.com/embed" ></iframe></div>
 <footer>Made with love by Montique Stevens with <a href="https://www.11ty.dev/" class="link--footer">Eleventy</a>, a dash of my custom HTML, JS, SASS/CSS and a sprinkle of Font Awesome icons. 
-Deployed with Netlify CMS. TailwindCSS is used for additional styling. Fonts for Body and Header are IBM Plex Mono, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
+Deployed with Netlify. TailwindCSS is used for additional styling. Fonts for Body and Header are IBM Plex Mono, courtesy of <a href="https://fonts.google.com/" classs="link--footer"> Google Fonts.</a>
 Copyright &copy; 2019-<script>document.write(new Date().getFullYear())</script> Montique Stevens, All Rights Reserved </footer> 
 
 
