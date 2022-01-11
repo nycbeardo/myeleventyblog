@@ -71,6 +71,7 @@ module.exports = function (eleventyConfig) {
 
   // Folders to copy to output folder
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("/dark.js");
   eleventyConfig.addPassthroughCopy("/custom.js");
   eleventyConfig.addPassthroughCopy("/cursor.js");
