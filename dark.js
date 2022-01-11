@@ -19,7 +19,7 @@ function darkToggle(){
 function mode(){
 	var button = document.getElementById("dark-button");
 	if(darkMode || darkMode){
-		document.body.classList.add("dark");
+		document.body.classList.add("dark"); //targets class in html to trigger dark mode
 		button.innerText = "Light Mode";
 	}
 	else{
