@@ -12,7 +12,8 @@ At some point I decided I wanted a different look for my site without going thro
 With that in mind, I wanted to accomplish two things: 
 
 ![simple](https://media3.giphy.com/media/DxqtKPX2raC83hZRtS/giphy.gif?cid=ecf05e4777b3kfmci7jmq2rdsum3n8n3k17sunwskr79au34&rid=giphy.gif&ct=g)
-1. KISS (Keep It Simple Stupid):
+
+### Goal one: KISS (Keep It Simple Stupid):
 <br>
 <br>
 You probably heard this before either online or from other devs. It's self explanatory. I kept this in mind when I wrote down exactly how I wanted this feature implemented.
@@ -20,7 +21,7 @@ You probably heard this before either online or from other devs. It's self expla
 <br>
 
 ![button press](https://media1.giphy.com/media/3miMttP8bhKwjoms69/giphy.gif?cid=ecf05e47xfpn167yqwtl4ko75mydv58ov4o2qxnx9wr4l0t0&rid=giphy.gif&ct=g)
-2. Make it User-Friendly:
+### Goal two: Make it User-Friendly:
 <br>
 <br>
 This was important as I wanted to keep the user in mind. When you visit my site, you don't have to feel forced to view it in one theme. I kept in mind the fact that there are some dark mode haters out here lurking on the web, as well as people who may want to read it in a normal light mode for whatever reason they choose. You have a choice. No need to feel locked in.
