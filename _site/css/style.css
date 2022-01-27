@@ -54,7 +54,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0, auto;
   padding: 10px 8px;
   font-size: 19px;
   font-family: "IBM Plex Mono", monospace;
@@ -208,7 +208,8 @@ p img {
 
 #dark-button {
   margin-bottom: 8px;
-  border: 2px solid black;
+  border: 3px solid black;
+  border-style: solid dashed solid dashed;
   width: 70px;
   height: 40px;
   position: relative;

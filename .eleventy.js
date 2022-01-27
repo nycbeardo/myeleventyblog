@@ -50,6 +50,7 @@ async function imageShortcode(src, alt) {
 }
 
 
+
 // module.exports, add lines needed for each plugin to work properly
 module.exports = function (eleventyConfig) {
 
