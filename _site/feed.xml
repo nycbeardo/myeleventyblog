@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Objector</title>
   <subtitle></subtitle>
-  <link href="https://objector.netlify.com/feed.xml" rel="self"/>
-  <link href="https://objector.netlify.com"/>
-  <updated>2022-01-29T21:04:51Z</updated>
-  <id>https://objector.netlify.com/</id>
+  <link href="https://objector.netlify.app/feed.xml" rel="self"/>
+  <link href="https://objector.netlify.app"/>
+  <updated>2022-01-29T21:16:19Z</updated>
+  <id>https://objector.netlify.app/</id>
   <author>
     <name>Montique Stevens</name>
     <email>montiquestevens@gmail.com</email>
