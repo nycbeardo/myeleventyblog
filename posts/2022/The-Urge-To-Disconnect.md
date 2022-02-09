@@ -1,6 +1,6 @@
 ---
 layout: post-layout.njk 
-title: The Urge to.. Disconnect
+title: The Urge to... Disconnect
 date: 2022-02-09
 tags: 'post'
 ---
