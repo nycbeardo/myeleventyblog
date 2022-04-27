@@ -12,14 +12,39 @@
     <email>montiquestevens@gmail.com</email>
   </author>
 
-  <title>My blog</title>
-  
-  <link href="https://objector.netlify.app/feed.xml" rel="self"/>
-  <link href="https://objector.netlify.app/"/>
-  <updated>2022-04-27T19:07:03Z</updated>
-  <id>https://objector.netlify.app//</id>
-  <author>
-    <name>Montique Stevens</name>
-    <email>montiquestevens@gmail.com</email>
-  </author>
+  <entry>
+<title>The Urge to... Disconnect</title>
+<link href="https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/" rel="alternate"/>
+<content type="html"><strong>Plug in, Plug out</strong><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span></content>
+<updated>2022-02-09T00:00:00+00:00</updated>
+<id>https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/</id>
+</entry>
+<entry>
+<title>Building User Enabled Dark Mode</title>
+<link href="https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/" rel="alternate"/>
+<content type="html"><strong>Using CSS and a bit of Javascript magic</strong><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span></content>
+<updated>2022-01-11T00:00:00+00:00</updated>
+<id>https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/</id>
+</entry>
+<entry>
+<title>Color Experiments with p5.js</title>
+<link href="https://objector.netlify.app/posts/2021/experiments-with-p5js/" rel="alternate"/>
+<content type="html"><strong>Continuing my focus on improving my skillset through creative coding...</strong><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span></content>
+<updated>2021-12-06T00:00:00+00:00</updated>
+<id>https://objector.netlify.app/posts/2021/experiments-with-p5js/</id>
+</entry>
+<entry>
+<title>Lets Just Call This --> How to make a Cube</title>
+<link href="https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/" rel="alternate"/>
+<content type="html"><strong>TW: This is not a tutorial,think of it as beardcrumbs</strong><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span></content>
+<updated>2021-09-07T00:00:00+00:00</updated>
+<id>https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/</id>
+</entry>
+<entry>
+<title>Combating Racial Bias in UX Design</title>
+<link href="https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/" rel="alternate"/>
+<content type="html"><strong>A look at how UX design can negate racism and promote positive impact</strong><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span></content>
+<updated>2020-08-19T00:00:00+00:00</updated>
+<id>https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/</id>
+</entry>
 </feed>
