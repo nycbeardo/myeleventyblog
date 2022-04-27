@@ -5,7 +5,18 @@
   
   <link href="https://objector.netlify.app/feed.xml" rel="self"/>
   <link href="https://objector.netlify.app/"/>
-  <updated>2022-04-27T18:55:42Z</updated>
+  <updated>2022-04-27T19:07:03Z</updated>
+  <id>https://objector.netlify.app//</id>
+  <author>
+    <name>Montique Stevens</name>
+    <email>montiquestevens@gmail.com</email>
+  </author>
+
+  <title>My blog</title>
+  
+  <link href="https://objector.netlify.app/feed.xml" rel="self"/>
+  <link href="https://objector.netlify.app/"/>
+  <updated>2022-04-27T19:07:03Z</updated>
   <id>https://objector.netlify.app//</id>
   <author>
     <name>Montique Stevens</name>
