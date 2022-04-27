@@ -9,7 +9,7 @@ tags: 'post'
 ***Plug in, Plug out***
 <!-- Excerpt End -->
 
-A quick thought.
+A quick thought...
 
 Is anyone else worried about how connected we have been since the pandemic?
 
