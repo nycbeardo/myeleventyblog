@@ -3,7 +3,7 @@ permalink: 'feed.xml'
 eleventyExcludeFromCollections: true
 metadata:
   title: My blog
-  subtitle: Writing about things I do
+  
   url: 'https://objector.netlify.app/'
   feedUrl: 'https://objector.netlify.app/feed.xml'
   author:
@@ -14,7 +14,7 @@ metadata:
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.desc }}</subtitle>
+  
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
