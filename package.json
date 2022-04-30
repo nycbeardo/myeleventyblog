@@ -25,9 +25,8 @@
     "sass": "^1.47.0"
   },
   "dependencies": {
-    "daisyui": "^1.11.1",
     "eleventy-plugin-tailwindcss": "^0.3.0",
     "markdown-it-image-figures": "^1.2.0",
-    "postcss": "^8.3.6"
+    "upgrade-node-modules": "^1.4.0"
   }
 }
