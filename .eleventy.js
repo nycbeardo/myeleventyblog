@@ -2,10 +2,11 @@ const moment = require('moment');
 
 moment.locale('en');
 
-const Image = require("@11ty/eleventy-img")
-const path = require('path')
-const pluginRss = require("@11ty/eleventy-plugin-rss")
-const pluginTailwindCSS = require("eleventy-plugin-tailwindcss")
+const Image = require("@11ty/eleventy-img");
+const path = require('path');
+const pluginRss = require("@11ty/eleventy-plugin-rss"); // rss feed
+const pluginTailwindCSS = require("eleventy-plugin-tailwindcss");
+
 
 
 async function imageShortcode(src, alt) {
@@ -52,7 +53,9 @@ async function imageShortcode(src, alt) {
 
 
 // module.exports, add lines needed for each plugin to work properly
-module.exports = function (eleventyConfig) {
+module.exports = (eleventyConfig) => {
+
+  eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
@@ -78,18 +81,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("/cursor.js");
 
   eleventyConfig.addPlugin(pluginTailwindCSS, {
-      src: "src/css/site.css",
-      dest: "css",
-      keepFolderStructure: false,
-      minify: false
-    });
+    src: "src/css/site.css",
+    dest: "css",
+    keepFolderStructure: false,
+    minify: false
+  });
 
-  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode)
-  eleventyConfig.addLiquidShortcode("image", imageShortcode)
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
   // === Liquid needed if `markdownTemplateEngine` **isn't** changed from Eleventy default
-  eleventyConfig.addJavaScriptFunction("image", imageShortcode)
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
-  eleventyConfig.addPlugin(pluginRss);
+  
+
+
+
 };
 
 function extractExcerpt(article) {
