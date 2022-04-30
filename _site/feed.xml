@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="2.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Objector</title>
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
@@ -16,110 +16,96 @@
     <link href="https://objector.netlify.app/posts/2019/my-first-post/"/>
     <updated>2019-08-14T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/my-first-post/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>A Short Primer on Design Systems</title>
     <link href="https://objector.netlify.app/posts/2019/A-Short-Primer-On-Design-Systems/"/>
     <updated>2019-08-15T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/A-Short-Primer-On-Design-Systems/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>My Dealings with Event Handlers</title>
     <link href="https://objector.netlify.app/posts/2019/My-Dealings-WIth-Event-Handlers/"/>
     <updated>2019-08-30T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/My-Dealings-WIth-Event-Handlers/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Cognitive Science in User Interface Design (Part 1)</title>
     <link href="https://objector.netlify.app/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/"/>
     <updated>2019-09-12T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Topics To Consider in User Interface Design</title>
     <link href="https://objector.netlify.app/posts/2019/Topics-To-Consider-In-User-Interface-Design/"/>
     <updated>2019-09-18T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/Topics-To-Consider-In-User-Interface-Design/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>The Psychology Of Color</title>
     <link href="https://objector.netlify.app/posts/2019/The-Psychology-Of-Color/"/>
     <updated>2019-11-30T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/The-Psychology-Of-Color/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>New Year, New Goals</title>
     <link href="https://objector.netlify.app/posts/2020/New-Year-New-Goals/"/>
     <updated>2020-01-08T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/New-Year-New-Goals/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>My Essential UI Toolset</title>
     <link href="https://objector.netlify.app/posts/2020/My-Essential-UI-Toolkit/"/>
     <updated>2020-02-06T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/My-Essential-UI-Toolkit/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Confirmation Bias In UX Design</title>
     <link href="https://objector.netlify.app/posts/2020/Confirmation-Bias-In-UX-Design/"/>
     <updated>2020-03-19T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/Confirmation-Bias-In-UX-Design/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Combating Racial Bias in UX Design</title>
     <link href="https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/"/>
     <updated>2020-08-19T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Lets Just Call This --&gt; How to make a Cube</title>
     <link href="https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/"/>
     <updated>2021-09-07T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Color Experiments with p5.js</title>
     <link href="https://objector.netlify.app/posts/2021/experiments-with-p5js/"/>
     <updated>2021-12-06T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2021/experiments-with-p5js/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>Building User Enabled Dark Mode</title>
     <link href="https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/"/>
     <updated>2022-01-11T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/</id>
-    
-  </entry>
+    </entry>
   
   <entry>
     <title>The Urge to... Disconnect</title>
     <link href="https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/"/>
     <updated>2022-02-09T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/</id>
-    
-  </entry>
+    </entry>
 </feed>
