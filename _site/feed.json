@@ -3,72 +3,86 @@
     
       {
         "title": "My First Post",
-        "url": "/posts/2019/my-first-post/"
+        "url": "/posts/2019/my-first-post/",
+        "date": "Tue Aug 13 2019 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "A Short Primer on Design Systems",
-        "url": "/posts/2019/A-Short-Primer-On-Design-Systems/"
+        "url": "/posts/2019/A-Short-Primer-On-Design-Systems/",
+        "date": "Wed Aug 14 2019 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "My Dealings with Event Handlers",
-        "url": "/posts/2019/My-Dealings-WIth-Event-Handlers/"
+        "url": "/posts/2019/My-Dealings-WIth-Event-Handlers/",
+        "date": "Thu Aug 29 2019 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "Cognitive Science in User Interface Design (Part 1)",
-        "url": "/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/"
+        "url": "/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/",
+        "date": "Wed Sep 11 2019 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "Topics To Consider in User Interface Design",
-        "url": "/posts/2019/Topics-To-Consider-In-User-Interface-Design/"
+        "url": "/posts/2019/Topics-To-Consider-In-User-Interface-Design/",
+        "date": "Tue Sep 17 2019 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "The Psychology Of Color",
-        "url": "/posts/2019/The-Psychology-Of-Color/"
+        "url": "/posts/2019/The-Psychology-Of-Color/",
+        "date": "Fri Nov 29 2019 19:00:00 GMT-0500 (Eastern Standard Time)"
       },
     
       {
         "title": "New Year, New Goals",
-        "url": "/posts/2020/New-Year-New-Goals/"
+        "url": "/posts/2020/New-Year-New-Goals/",
+        "date": "Tue Jan 07 2020 19:00:00 GMT-0500 (Eastern Standard Time)"
       },
     
       {
         "title": "My Essential UI Toolset",
-        "url": "/posts/2020/My-Essential-UI-Toolkit/"
+        "url": "/posts/2020/My-Essential-UI-Toolkit/",
+        "date": "Wed Feb 05 2020 19:00:00 GMT-0500 (Eastern Standard Time)"
       },
     
       {
         "title": "Confirmation Bias In UX Design",
-        "url": "/posts/2020/Confirmation-Bias-In-UX-Design/"
+        "url": "/posts/2020/Confirmation-Bias-In-UX-Design/",
+        "date": "Wed Mar 18 2020 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "Combating Racial Bias in UX Design",
-        "url": "/posts/2020/Combating-Racial-Bias-in-UX-Design/"
+        "url": "/posts/2020/Combating-Racial-Bias-in-UX-Design/",
+        "date": "Tue Aug 18 2020 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "Lets Just Call This --&gt; How to make a Cube",
-        "url": "/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/"
+        "url": "/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/",
+        "date": "Mon Sep 06 2021 20:00:00 GMT-0400 (Eastern Daylight Time)"
       },
     
       {
         "title": "Color Experiments with p5.js",
-        "url": "/posts/2021/experiments-with-p5js/"
+        "url": "/posts/2021/experiments-with-p5js/",
+        "date": "Sun Dec 05 2021 19:00:00 GMT-0500 (Eastern Standard Time)"
       },
     
       {
         "title": "Building User Enabled Dark Mode",
-        "url": "/posts/2022/Building-User-Enabled-Dark-Mode/"
+        "url": "/posts/2022/Building-User-Enabled-Dark-Mode/",
+        "date": "Mon Jan 10 2022 19:00:00 GMT-0500 (Eastern Standard Time)"
       },
     
       {
         "title": "The Urge to... Disconnect",
-        "url": "/posts/2022/The-Urge-To-Disconnect/"
+        "url": "/posts/2022/The-Urge-To-Disconnect/",
+        "date": "Tue Feb 08 2022 19:00:00 GMT-0500 (Eastern Standard Time)"
       }
     
   ]

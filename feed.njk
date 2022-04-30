@@ -1,12 +1,13 @@
 ---
-permalink: 'https://objector.netlify.app/feed.json'
+permalink: '/feed.json'
 ---
 {
   "posts": [
     {% for post in collections.post %}
       {
         "title": "{{ post.data.title }}",
-        "url": "{{ post.url }}"
+        "url": "{{ post.url }}",
+        "date": "{{post.date }}"
       }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]

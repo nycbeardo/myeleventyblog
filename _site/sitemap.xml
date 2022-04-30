@@ -77,7 +77,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/https:/objector.netlify.app/feed.json</loc>
+    <loc>/feed.json</loc>
     <lastmod>2020-08-24T23:20:43.852Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
