@@ -77,12 +77,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/feed.json</loc>
-    <lastmod>2020-08-24T23:20:43.852Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/</loc>
     <lastmod>2021-09-07T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -125,8 +119,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/feed.json</loc>
-    <lastmod>2022-04-30T19:34:41.299Z</lastmod>
+    <loc>/feed/</loc>
+    <lastmod>2022-04-30T19:49:30.487Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
