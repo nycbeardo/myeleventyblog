@@ -4,7 +4,7 @@ moment.locale('en');
 
 const Image = require("@11ty/eleventy-img");
 const path = require('path');
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginRss = require("@11ty/eleventy-plugin-rss"); // rss feed
 const pluginTailwindCSS = require("eleventy-plugin-tailwindcss");
 
 

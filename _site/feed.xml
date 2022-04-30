@@ -1,14 +1,14 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>My blog</title>
+  <title>“Objector”</title>
   <link href="https://objector.netlify.app/feed.xml" rel="self"/>
   <link href="https://objector.netlify.app"/>
   <updated>2022-02-09T00:00:00Z</updated>
   <id>https://objector.netlify.app/</id>
   <author>
-    <name>Montique Stevens</name>
-    <email>montiquestevens@gmail.com</email>
+    <name>“Montique Stevens&quot;</name>
+    <email>“Montiquestevens@gmail.com”</email>
   </author><entry>
           <title>The Urge to... Disconnect</title>
           <link href="https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/"/>
