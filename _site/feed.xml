@@ -16,6 +16,12 @@
     <link href="https://objector.netlify.app/posts/2019/my-first-post/"/>
     <updated>2019-08-14T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/my-first-post/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;This is my very first post!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;I hope you will follow me as I talk about my coding journey and discuss related topics.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -23,6 +29,46 @@
     <link href="https://objector.netlify.app/posts/2019/A-Short-Primer-On-Design-Systems/"/>
     <updated>2019-08-15T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/A-Short-Primer-On-Design-Systems/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;You may have heard the term Design Systems, or maybe other terms such as Design Language, Pattern Library,  or even Component Design.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When we talk about Design Systems, we are actually referring to components that can be reused in a number of different combinations. This is very important when dealing with human computer interaction, user experience, interaction design, as well as frontend development.  Design Systems help with improving design and development workflow, iterate with confidence, and manage updates collaboratively. Documentation is also key to understanding the separate components that make up the design system along with when and how to use them effectively.&lt;/p&gt;
+&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The importance of  having a Design System is crucial to a team for a variety of reasons.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;***The main reasons: ***&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Scaling&lt;/strong&gt; your app or product for future growth&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Promoting &lt;strong&gt;Consistency&lt;/strong&gt; throughout the user experience and product branding&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Efficiency&lt;/strong&gt; for developers and designers in order to save time&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Encouraging &lt;strong&gt;Teamwork&lt;/strong&gt;
+&lt;em&gt;&lt;strong&gt;Some of the biggest examples of  commercial design systems are:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Polaris by Shopify&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AirBnB Visual Language&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plasma by WeWork&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Swarm by Meetup&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google&#39;s Material Design&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are links to more in-depth information about design systems if you feel like going down the design development rabbit hole:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969&quot;&gt;Everything you need to know about Design Systems&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Systems_design&quot;&gt;Systems Design - Wikipedia&lt;/a&gt;&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -30,6 +76,31 @@
     <link href="https://objector.netlify.app/posts/2019/My-Dealings-WIth-Event-Handlers/"/>
     <updated>2019-08-30T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/My-Dealings-WIth-Event-Handlers/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;As you may or may not know,  I am currently on my journey to becoming better at JavaScript and React.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This has been easy at times but harder as the topics get more complicated  and I continue to grow as a developer. One of
+the topics that have been difficult but interesting is how Event Handlers are dealt with in React.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;To give a little bit of background info on this particular topic:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Event handlers help keep track of every action performed by the user.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;*This can be anything from resizing a window, clicking on links, a page scrolling, all of which are processed by event handlers. *&lt;/p&gt;
+&lt;h3&gt;Things to keep in mind:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The naming of events in React are of great importance, and adding events is similar to how they are added to DOM elements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Synthetic events play a role, as they are needed to provide event details and can be passed into event handlers as well as callback functions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Defining events using JSX: use the camelCase event with the handler or callback function as the property of the JSX that is a placeholder for the element in React.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My first exposure to event handlers came in the form of tutorials in the Learn ReactJS course on Codecademy.
+While it was only a small preview, that part of the lesson gave me insight into updating parent and child components in React through the use of event handlers.
+Continuing onward, I want to make sure that the concepts that I am being exposed to will help me in the implementation aspect when building new projects. I have a long way to go with becoming stronger in React, and while this topic was a challenge,
+determining the logic behind it helped to broaden my understanding and increase my knowledge base.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -37,6 +108,28 @@
     <link href="https://objector.netlify.app/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/"/>
     <updated>2019-09-12T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/Cognitive-Science-In-User-Interface-Design-Part-1/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;What is the connection with the human brain process and user interface design?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;How does it help programmers and designers gain insight into the demystification of highly advanced computer and design systems for human usage?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In order to achieve the above objective, you must understand how the human mind works to analyze and process visual information. This information comes
+in handy for reducing the learning curve for a application or processing how to interpret the design and layout of a website.
+The term &lt;a href=&quot;https://en.wikipedia.org/wiki/Cognitive_load&quot;&gt;cognitive load&lt;/a&gt; comes to mind as this is an important factor in the effort to promote higher retention rate and absorption within working memory.
+Promotion of a system that has less of a cognitive load on the user helps to keep the user engaged without confusing or burning them out.&lt;/p&gt;
+&lt;p&gt;The following deals with the factors that determine how the human mind processes the design language of sites and applications:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Familiarity:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Familiarity comes to mind when designing interface systems.  People respond to icons, avatars, and the like that ignite significance and
+value to them and will easily identify them as elements of your application when placed correctly.
+Colors, shapes, fonts all function together to establish an object which the user can interact with
+and the arrangement, design, and ease of  use of these variables determine how long will the user remain engaged with your site or application.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Use of Motion:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Motion and animation are big factors in UI design, as they can help improve the site appearance to making sure you get your most important notifications front and center.
+There are cases where motion shouldn&#39;t be applied but the focus here is on the benefits of motion.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Curiousity:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is a big deal in itself. When a person is curious about anything, less cognitive load will be produced as their engagement level is increased organically as opposed to someone generating more cognitvie load in order to foucs on a subject thats not intersting.
+If you can keep your users engaged as long as possible, you will end up with lifetime users who will help you generate revenue.
+Many gaming apps use a technique called &lt;a href=&quot;https://en.wikipedia.org/wiki/Gamification&quot;&gt;gamification&lt;/a&gt; in order to achieve this, for example.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -44,6 +137,86 @@
     <link href="https://objector.netlify.app/posts/2019/Topics-To-Consider-In-User-Interface-Design/"/>
     <updated>2019-09-18T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/Topics-To-Consider-In-User-Interface-Design/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;User Interface Design covers a variety of topics and a multitude of disciplines which is why it is classified as a interdisciplinary career field.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;The following are topics that relate directly or indirectly to UI design and should be looked at in order to gain a deeper insight into the field of study:&lt;/p&gt;
+&lt;p&gt;** Principles of Design: **&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. Principles of Gestalt
+2. Negative Space
+3. Contrast
+4. Color Theory
+5. Typography
+6. Grids
+7. Graphic Design
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Other Topics to Consider:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;User Centered Design
+
+Anthropology
+
+Sociology
+
+Psychology
+
+Cognitive Science
+
+Digital Behavior
+
+Neuroscience
+
+Fine Art
+
+Art History
+
+Industrial Design
+
+Interaction Design
+
+Motion Design
+
+Animation
+
+Illustration
+
+Iconography
+
+Advertising
+
+Creative Writing
+
+Coding
+
+Photography
+
+Genre Theory
+
+Designing for Accessibility
+
+Information Architecture
+
+Political Science
+
+Behavioral Economics
+
+Linguistics
+
+Philosophy
+
+Affective Science
+
+Applied Research
+
+Ubiquitous Computing
+
+Data Visualization
+
+Human-Computer Interaction
+
+Web Form Design
+&lt;/code&gt;&lt;/pre&gt;
+</content>
     </entry>
   
   <entry>
@@ -51,6 +224,36 @@
     <link href="https://objector.netlify.app/posts/2019/The-Psychology-Of-Color/"/>
     <updated>2019-11-30T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2019/The-Psychology-Of-Color/</id>
+    <content type="html">&lt;h2&gt;&lt;em&gt;&lt;strong&gt;&amp;quot;The colors can make or break your design&amp;quot;&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;You may have heard a statement like this made before when it comes to implementation of  UI/UX design for applications and sites.
+While this is true, you must also take into account the psychology of color, cultural differences,
+and the color palette of the clients you&#39;re working for.&lt;/p&gt;
+&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Colors have a way of evoking certain emotional states within humans.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;These factors have to be taken into consideration when you decide on the color palettes for your projects.&lt;/p&gt;
+&lt;p&gt;These are a few of the examples of the most used colors and what their meanings are, in relation to North America and most Westernized societies&lt;/p&gt;
+&lt;h2&gt;Red   🍎&lt;/h2&gt;
+&lt;p&gt;Red is one of the boldest colors and can represent energy and enthusiasm.
+It also evokes strong emotions. A sense of urgency can be conveyed through the usage of this color in a design system.&lt;/p&gt;
+&lt;h2&gt;Yellow 💛&lt;/h2&gt;
+&lt;p&gt;Yellow is considered warm and pleasant and is often used to represent happiness, clarity, warmth, and intelligence.
+Considered an attention grabber.&lt;/p&gt;
+&lt;h2&gt;Blue 💙&lt;/h2&gt;
+&lt;p&gt;Often considered a &amp;quot;cold&amp;quot; color, it can represent calmness and serenity and the feeling of trust and security.
+In many cultures, it is seen as a masculine color and most business-centric corporations use it to symbolize trust and competency.
+The impression of cleanliness has also been conveyed through this color.&lt;/p&gt;
+&lt;h2&gt;Green 🍏&lt;/h2&gt;
+&lt;p&gt;Symbolizes nature which associates with growth, wellbeing, and calmness.&lt;/p&gt;
+&lt;h2&gt;Pink 🌺&lt;/h2&gt;
+&lt;p&gt;Pink is seen as one of the more warmer colors.
+It symbolizes sophistication, sincerity, and is often connected with feminine imagery.&lt;/p&gt;
+&lt;h2&gt;Purple 💜&lt;/h2&gt;
+&lt;p&gt;It creates a sense of luxury, prestige, and elegance. At times it has been identified with authority and power
+Different shades are used to represent creativity and imagination.&lt;/p&gt;
+&lt;h2&gt;Black ⬛&lt;/h2&gt;
+&lt;p&gt;This color has come to be defined as symbolizing power, elegance, and luxury. In other cases, it symbolizes grief, loss, and fear.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -58,6 +261,41 @@
     <link href="https://objector.netlify.app/posts/2020/New-Year-New-Goals/"/>
     <updated>2020-01-08T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/New-Year-New-Goals/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Resolutions are one of those things that we all try to do but never finish.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;We make these declarations about learning a new skill or losing weight, or whatever we can think of in the moments before the ball drops and the celebrations are over.&lt;/p&gt;
+&lt;p&gt;In reality, the majority of us mess up before the weather gets warm and we throw those jackets right back in the closet.
+So with that being said, its a new year here, but I have no resolutions, only long term goals.&lt;/p&gt;
+&lt;p&gt;My main focus throughout 2020 is taking the time to accomplish three of these goals:&lt;/p&gt;
+&lt;h3&gt;1.  Learning Python&lt;/h3&gt;
+&lt;h3&gt;2.  Improving my knowledge of UI/UX&lt;/h3&gt;
+&lt;h3&gt;3.  Attending Meetups&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Python:&lt;/h2&gt;
+&lt;p&gt;A while back in 2017, I told myself that I wanted to learn how to code in Python and while doing the 100DaysofCode Challenge,
+I got sidetracked with improving my JavaScript skills, which did work out to some extent. In the end, I failed at my goal of learning Python and learning the many applications I can apply my knowledge to.&lt;/p&gt;
+&lt;p&gt;This time however I am recommitted and back on track to learn, with a little more help, of course, courtesy of Microsoft and its introduction course, which can be found on YouTube and on their main site (details at end of the post.).
+By building a foundation, I hope to avoid tutorial hell and move on to topics such as scripting and data visualization.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/itt9u9egmuufw665ajxt.JPG&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/d7edber5za4nixuvrfoj.JPG&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;UI/UX:&lt;/h2&gt;
+&lt;p&gt;If you been keeping up with me then you know I been making the transition from just focusing on front end web development and getting into specialization in User Interaction and User Exerperise design.&lt;/p&gt;
+&lt;p&gt;I personally feel that having a hybrid or multidisciplinary skillset would help me in the search for future opportunities. A while back I remember freecodecamp putting out an article about the hundreds of free online courses from some of the top universities in the world.&lt;/p&gt;
+&lt;p&gt;Little did I know that I would be reminded again thanks to an awesome twitter user &lt;a href=&quot;https://twitter.com/chrysking/status/1214301681502044160&quot;&gt;@chrysking&lt;/a&gt; who made an amazing thread showing how she leveled up on her journey using one of the resources I am showing you.&lt;/p&gt;
+&lt;p&gt;As of today I signed up to &lt;a href=&quot;https://www.coursera.org/&quot;&gt;&lt;strong&gt;Coursea&lt;/strong&gt;&lt;/a&gt; and enrolled in the Human-Computer Interaction Design course offered by UC San Diego.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/rci392r85wqo1vpejr7y.JPG&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Meetups:&lt;/h2&gt;
+&lt;p&gt;Part of growing as a developer or designer is putting yourself out there. Sometimes interacting in real life is just as important as building your online presence.&lt;/p&gt;
+&lt;p&gt;That&#39;s why I joined a few groups on Meetup and this year plan to attend events as regularly as I can, time permitting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protip:&lt;/strong&gt; Joining smaller more niched communities works as well since it gives you a chance to get to know others just like you who are on their coding journey as opposed to being in larger ones where you can find yourself lost or drowned out by the sheer size. Head on to &lt;a href=&quot;https://www.meetup.com/&quot;&gt;Meetup&lt;/a&gt; and find groups related to your interests near you!&lt;/p&gt;
+&lt;h3&gt;As promised here are the links if you&#39;re curious about learning more:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.coursera.org/&quot;&gt;Coursea&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/650-free-online-programming-computer-science-courses-you-can-start-this-summer/&quot;&gt;freecodecamp&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/intro-to-python/?WT.mc_id=python-c9-niner&quot;&gt;Microsoft&#39;s Intro To Python&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6&quot;&gt;Python for Beginners&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hope this helps you, even if it is just a little bit and here&#39;s to a wonderful New Year ahead of us!&lt;/strong&gt;&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -65,6 +303,59 @@
     <link href="https://objector.netlify.app/posts/2020/My-Essential-UI-Toolkit/"/>
     <updated>2020-02-06T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/My-Essential-UI-Toolkit/</id>
+    <content type="html">&lt;h2&gt;&lt;span style=&quot;color:green&quot;&gt;&amp;quot;A good tool improves the way you work. A great tool improves the way you think.&amp;quot;&lt;/span&gt;&lt;/h2&gt;
+&lt;h4&gt;- Jeff Duntemann&lt;/h4&gt;
+&lt;h2&gt;&lt;span style=&quot;color:green&quot;&gt;&amp;quot;No amount of tools can help a bad product. You have to remain genuine in your product development innovation and quality.&#39;&#39;&lt;/span&gt;&lt;/h2&gt;
+&lt;h4&gt;- Kara Swisher&lt;/h4&gt;
+&lt;p&gt;The quotes above can be applied to pretty much anyone and the choices of tools they choose to use, regardless of profession.&lt;/p&gt;
+&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Even with the best tools, you still have to learn how and when to apply then given the task at hand.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;  
+&lt;p&gt;Not to mention having tools you can always rely on to help you with your craft is always a plus!&lt;/p&gt;
+&lt;p&gt;For this post, I wanted to share my ever-growing list of tools that help me do the work that I do, from frontend development to UI/UX design.&lt;/p&gt;
+&lt;p&gt;These are some of the software, sites, and services that I found either on my own or via suggestions by fellow designers and developers (below).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;Notion&lt;/a&gt; - Note-taking, Task listing, budget management, keeping track of roles I applied to, trip itineraries, the list goes on. Notion is a one-stop-shop for teams and solo power users, with many templates to choose from to keep track of and manage workflow and options for collaboration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; - I use this to for communication with groups that I&#39;m in, and have used it in the past for the last few jobs I was on.
+Nowadays I mostly use it to keep up with groups such as codenewbies, blacktechpipeline, and united designers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://bear.app/&quot;&gt;Bear&lt;/a&gt; - I use this for taking quick notes, saving images in notes when not online. Plenty of options for using markdown and HTML.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; - For all coding projects, it&#39;s my main compiler, after having left Brackets and Atom behind. There are many extensions to choose from to enhance your productivity and your projects in general.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.adobe.com/products/xd/details.html&quot;&gt;Adobe XD&lt;/a&gt; - UI design software used to create artboards and mockups.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.figma.com/&quot;&gt;FIgma&lt;/a&gt;- Another UI design software, similar to Xd but with collaboration in mind and an emphasis on interactions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pixeden.com/&quot;&gt;Pixelden&lt;/a&gt; - Premium option for high quality images. Paid of course.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt; - Good option for high-quality images, totally free, no watermarks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.adobe.com/products/illustrator/free-trial-download.html&quot;&gt;Adobe Illustrator&lt;/a&gt; - just started using this, and so far it&#39;s come through for stuff non-tech related, like the business cards I&#39;ve designed for freelancing. It can (optional) also be used for creating mobile and desktop mockups and image-intensive projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://coolors.co/&quot;&gt;Coolors.co&lt;/a&gt; - Color palette generator, you can use it to create custom palettes.
+They have a feature to lock certain colors so that you keep them after refreshing the remaining set for customization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://colormind.io/&quot;&gt;Colormind&lt;/a&gt;- AI-powered color palette generator, supposed to use algorithms to create a cohesive set of colors for use in your next project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;This list will most likely see updates as time passes or when I find something else to aid me in my work.
+Keep in mind that I am not suggesting you use all the ones listed here, but if you find one you like that&#39;s a good thing! :smiley:&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -72,6 +363,32 @@
     <link href="https://objector.netlify.app/posts/2020/Confirmation-Bias-In-UX-Design/"/>
     <updated>2020-03-19T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/Confirmation-Bias-In-UX-Design/</id>
+    <content type="html">&lt;h2&gt;This is part 1 of a two-part series on topics related to &amp;quot;Bias in Design&amp;quot;&lt;/h2&gt;
+&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;An overview of the most common forms of bias seen in interaction design&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;With the conceptualization and adoption of next-generation technology and disciplines such as AI, AR, and UX,
+eventually, the issues of racial and cognitive bias would seep in...&lt;/p&gt;
+&lt;p&gt;First and foremost as a developer and/or a designer you have to remember that regardless of where you were raised or how cultured you think you may be, you  &lt;strong&gt;ARE&lt;/strong&gt; still capable of exhibiting some form of bias. That&#39;s a fact.&lt;/p&gt;
+&lt;p&gt;There are many forms of cognitive bias that occur during the design and research process which could hinder the creation of the resulting product or service. This, in turn, puts the validity of the research and your work in general in a compromising position.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*** “I think it&#39;s outrageous if a historian has a &#39;leading thought&#39; because it means they will select their material according to their thesis” ***
+***  ― Antony Beevor ***&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of the biggest forms is known as &lt;em&gt;&lt;strong&gt;Confirmation Bias&lt;/strong&gt;&lt;/em&gt;. This type of bias leads to designers, developers and of course ordinary people to intentionally take into consideration any data that only supports their argument or desired methods.  This is done based on a number of factors including holding the belief that what they know and their experience is a fact without regard for the opinions of others.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*** “People put a lot less effort into picking apart evidence that confirms what they already believe.” ***
+*** ― Peter Watts, Echopraxia ***&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You see this occur during A/B testing for example, when we want to see the results that we desire and stop at that point. Self Validation is the objective and it often leads to us making errors we try to ignore by making excuses.
+In UI/UX you must be careful to avoid this form of bias as it can cloud your judgment and cause damage to the usability testing and user research you conduct for your design patterns.&lt;/p&gt;
+&lt;p&gt;You must always keep in mind that in the design process you are not the end-user and that you are building patterns to be put to use in order to satisfy the needs of the targeted audience.&lt;/p&gt;
+&lt;p&gt;Here are some of the ways that you can prevent or minimize Confirmation Bias from taking hold during the design process:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Mapping the Journey:&lt;/strong&gt; All this means is that you need to create a solid qualitative research plan so that you can interview potential users, analyze their motivations and their behavior so that you can deliver reliable yet personalized experience based on the data you obtained from them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Diversify Your Feedback:&lt;/strong&gt; This is where it gets tricky and what many designers often fail at. You need to make sure that the pool of respondents is not from the same background as yourself. While this can&#39;t always be done in every situation, the effort should be made nevertheless to make sure there is as many unique perspectives as possible for surveys and focus groups.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Look Out for the Naysayers:&lt;/strong&gt; Yes you read it right and yes you have to include them. The ones who disagree with you, who don&#39;t like the design, or have issues with the intuitiveness of the product are important. They help you see if there are mistakes that you may have missed or exposed to new issues. The user feedback that comes from them is priceless.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.  Always refer to the Data:&lt;/strong&gt; The data is your friend. You need it to succeed. The data from the research you conduct allows you to ask the questions that really matter to determine how a product is well received by users. Tracking usage data with quantitative metrics enables this to happen, the right way.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -79,6 +396,36 @@
     <link href="https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/"/>
     <updated>2020-08-19T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2020/Combating-Racial-Bias-in-UX-Design/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;A look at how UX design can negate racism and promote positive impact&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;As you&#39;re well aware, this year has been unlike anything we could&#39;ve imagined.
+In the United States, in particular, the pandemic gave way to protests following the death of George Floyd and radical shift in
+the national and global conversation about how society treats it&#39;s most vulnerable and marginalized groups.&lt;/p&gt;
+&lt;p&gt;Many companies and studios whose industries include tech and design,
+which in the past have avoided or downplayed issues with race and diversity, found themselves having to show some form of support&lt;/p&gt;
+&lt;p&gt;While in some cases it seemed genuine, most displays of solidarity were just that... displays.
+Many had no comprehensive plan on how to combat the lack of diversity, the lack of opportunities for underrepresented groups, and lack of
+diverse leadership.&lt;/p&gt;
+&lt;h2&gt;You may wonder why is that important or you may think its not a big deal. Well, I got news for you, IT IS!&lt;/h2&gt;
+&lt;p&gt;When it comes to the creation of products and services for the web and how they are developed and designed, who is chosen to
+take on the tasks of doing that is intentional and most likely have a skewed view of the world they live in.&lt;/p&gt;
+&lt;p&gt;Most of the time they are usually White and sometimes Asian, with no further representation of Black, Latinx, or Indigenous People.&lt;/p&gt;
+&lt;p&gt;The decisions that place people of privilege in these positions can have consequences for users, the ones they have in mind, and the ones they don&#39;t have in mind.&lt;/p&gt;
+&lt;p&gt;Consider how apps such as Nextdoor utilize a method known as anticipatory design. Sure it helps to make hard decisions super easy for the user in a way that gives them less to think about, but in the wrong scenario, it could lead to an error of judgment and place someone traditionally powerless in society in real danger.&lt;/p&gt;
+&lt;p&gt;With that being said, how can we make changes to move in the right direction so that we use design as a tool for change and not to beef up the status quo or promote oppression?&lt;/p&gt;
+&lt;p&gt;Here are several ways that this can be done. Take note that this is not a foolproof way to change attitudes and actions overnight but rather they are suggestions that can pave the way to more radical shifts in the process.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;User Interviews &amp;amp; Research:&lt;/h3&gt;
+&lt;p&gt;By conducting research and interviews with a wider variation of your targeted group, in terms of ethnicity and cultural groups for example, you will find that not only are there other groups of users who may use your product or service, you&#39;ll find out what they like and what should or shouldn&#39;t be in the final product based on having a greater understanding of cultural norms, dos and donts, and identifying cultural insensitivity issues before shipping.&lt;/p&gt;
+&lt;h3&gt;Outreach and Signal Boosting:&lt;/h3&gt;
+&lt;p&gt;As someone in tech/design and in a privileged group, what are you doing to encourage more designers from all backgrounds? Are you offering a mentorship? Are you an ally? Do you help to promote inclusion in the industry or even your own workspace, or better yet do you share the work of Black and POC designers to your audience or professional circles?&lt;/p&gt;
+&lt;p&gt;Doing this like the ones mentioned pushes new creatives with fresher viewpoints into the conversation and gives them the attention they deserve for the work they do.&lt;/p&gt;
+&lt;h3&gt;Inclusive Team Building:&lt;/h3&gt;
+&lt;p&gt;When it comes to product and development teams, most are lacking voices that are diverse, a similar feature of the communities they come from. This is because of the implicit bias and overt racist viewpoints and stereotypes that are ingrained into western societies like the United States. The outcome of that leads to products and features being created and shipped that are tone-deaf and lacking in acknowledgment of racial, social, and economic structures and history.&lt;/p&gt;
+&lt;p&gt;Perhaps as a way to promote change and avoid bad PR and money being wasted on useless design and research, hiring and placing Black and PoC designers, product managers, and directors on teams would allow for multiple opinions in the decision making processes that go on during the design and iteration of products and services. They should also be involved in the hiring process for junior designers and recent grads getting their feet wet in the industry.&lt;/p&gt;
+&lt;p&gt;By doing that, you&#39;re not just hiring someone to fit a quota or make the company look good, you&#39;re actually helping UX/UI design be better as a discipline, an industry, and laying the foundation necessary to push for widespread and hopefully permanent change.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -86,6 +433,60 @@
     <link href="https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/"/>
     <updated>2021-09-07T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2021/Lets-Just-Call-This-How-to-make-a-Cube/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;TW: This is not a tutorial,think of it as beardcrumbs&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;One of the ways you get comfortable with your craft as a developer is to build projects.&lt;/p&gt;
+&lt;p&gt;The logic behind this is that you will learn and retain more knowledge as you build till your heart&#39;s content, get stuck, break things, fix them, etc.&lt;/p&gt;
+&lt;p&gt;It’s considered a much better way to grasp new concepts than the alternative:&lt;/p&gt;
+&lt;br /&gt;
+&lt;h3&gt;🔥 🔥 &lt;span style=&quot;color:red&quot;&gt;&amp;quot;TUTORIAL HELL&amp;quot;&lt;/span&gt; 🔥 🔥&lt;/h3&gt;
+&lt;br /&gt;
+&lt;p&gt;I won&#39;t go deeper into that since I know what most of you are really here for:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://sayingimages.com/wp-content/uploads/angry-man-in-the-phone-show-me-the-money-meme.jpg&quot; alt=&quot;&amp;quot;show me the code&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With that being said, I want to give you a glimpse into one of the so-called experiments I have been working on.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;300&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;html,result&quot; data-slug-hash=&quot;eYRBMWe&quot; data-user=&quot;nycbeardo&quot; style=&quot;height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/nycbeardo/pen/eYRBMWe&quot;&gt;
+  Pixel Cube #1&lt;/a&gt; by Montique Stevens (&lt;a href=&quot;https://codepen.io/nycbeardo&quot;&gt;@nycbeardo&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;This is just a cube but as you can see theres more to it. Digging deeper into my new obsession with CSS Art, I decided to try building various shapes and patterns while also taking the time to learn more about adding animations and transitions to them without the use of JavaScript (for now).&lt;/p&gt;
+&lt;p&gt;I had two main goals to make this work:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create the cube&lt;/li&gt;
+&lt;li&gt;Get the cube to spin&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To get step one accomplished I needed to structure my code in a way that when I style those elements in CSS they would overlap to form the desired shape.&lt;/p&gt;
+&lt;p&gt;This can be done with a series of divs like so:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/99/75/jNf4H47z_o.png&quot; alt=&quot;&amp;quot;show me the code&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Just to give a brief explanation about the structure:&lt;/p&gt;
+&lt;p&gt;&amp;quot;Wrapper&amp;quot; div is like your container. It’s holding all of the other divs you’ll need for the cube. Everything will be neat and consistent as long as you don’t tweak it too much.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Cube&amp;quot; div is the main div for your cube. Basically a wrapper in a wrapper.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Cube Side&amp;quot; deals with each face of the cube itself, and this is where youll need to use CSS to position them properly and style their elements heavily in order to create the correct shape.&lt;/p&gt;
+&lt;h2&gt;Now for the juicy parts...&lt;/h2&gt;
+&lt;p&gt;Now that we have the structure set setup, we can move on to our stylesheet. The way I went about it was to use perspectives in the main div &amp;quot;Wrapper&amp;quot; since it contains all the other divs and their elements, bringing in the whole cube to be animated properly.&lt;/p&gt;
+&lt;p&gt;The perspective property for a lack of a better way to explain it, allows you to control how an object is viewed on the screen. If you want to see it in action, check out this link ---&amp;gt; &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/perspective&quot;&gt;&lt;strong&gt;CSS PERSPECTIVE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform&quot;&gt;&lt;strong&gt;Transform&lt;/strong&gt;&lt;/a&gt; property allows you to manipulate the element by altering how it moves, going by angles, scaling and rotation included. This is what helped me with showing each individual face like so:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/01/22/Jq3Mt3Lj_o.png&quot; alt=&quot;&amp;quot;more code&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And last but not least, we need to actually animate this cube to either rotate or spin using keyframes, which is better explained here: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes&quot;&gt;&lt;strong&gt;CSS Keyframes&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once you understand the basics of keyframes, you can modify and define the waypoints in order to create custom animations like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/13/fa/Z2pPSi54_o.png&quot; alt=&quot;&amp;quot;spin spin&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Some things you need to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The position is key! If you&#39;re comfortable with CSS then you already know the rules for position hierarchy with divs involved.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You&#39;ll need to play with perspectives to get a full grasp of what you can do with it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transform also has specific styling so you need to understand how that works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;Think of this as a nudge or little hints to get you familiar with this type of styling in your code. Hopefully, this helps get you started at least, and you&#39;ll be able to build from there.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -93,6 +494,34 @@
     <link href="https://objector.netlify.app/posts/2021/experiments-with-p5js/"/>
     <updated>2021-12-06T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2021/experiments-with-p5js/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Continuing my focus on improving my skillset through creative coding...&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;Continuing my focus on improving my skillset through creative coding, I decided to take the plunge into learning one of the more interesting JavaScript libraries that exists, aka p5.js.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://p5js.org/&quot;&gt;&lt;strong&gt;p5.js&lt;/strong&gt;&lt;/a&gt;is used by programmers, artists, and students to learn JavaScript through creative coding and it is one of the most accessible libraries out there that regardless of your skill level you can pick it up via the robust documentation provided by the Processing Foundation.&lt;/p&gt;
+&lt;p&gt;As someone who always had a passion for art and design before entering into tech, naturally this piqued my interest. This wasn’t the first time I dealt with p5 and processing, as I had experience with it in college but there&#39;s a difference between being made to do something and organically discovering how to do it on your own.&lt;/p&gt;
+&lt;p&gt;With that being said the key for me was to go straight to the documentation and read it for myself. This helped me get a grasp of the things that I wanted to do with p5.js and how I could go about building it out.&lt;/p&gt;
+&lt;p&gt;Creative coding though more art-focused still requires you as a programmer to learn how to identify a problem and apply the solutions you need to solve that problem.&lt;/p&gt;
+&lt;p&gt;So after a few weeks of playing with p5 in both the live editor and in VS code (which I&#39;ll provide you ways to set it up on your local machine), I decided to make something a little bit fancier than just 2d primitives moving around via GraphGL.&lt;/p&gt;
+&lt;p&gt;Before we get into that there are two ways for you to go about using p5 right out the gate:&lt;/p&gt;
+&lt;h3&gt;1. Using the browser editor:&lt;/h3&gt;
+&lt;p&gt;On the &lt;a href=&quot;https://p5js.org/&quot; title=&quot;home page for p5&quot;&gt;&lt;strong&gt;p5&lt;/strong&gt;&lt;/a&gt; home page you&#39;ll find a link to use the editor if you want to play with it right away without any unneccessary hurdles. In my opinion this is a good way to find out if you want to continue playing with it on your local machine or not.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/cc/4d/jsnwWu4L_o.png&quot; alt=&quot;&amp;quot;p5 editor&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;2. Using VS Code:&lt;/h3&gt;
+&lt;p&gt;Now for those who like a little risk...&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media1.giphy.com/media/AZ1PPDF8uO9MI/giphy.gif?cid=ecf05e471aww5hi7b7q9e3cu9drcab9b2qp4a05d8uj0jvc7&amp;amp;rid=giphy.gif&amp;amp;ct=g&quot; alt=&quot;&amp;quot;risky risky&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I would explain the steps myself but I feel this video would do the trick.
+&lt;a href=&quot;https://twitter.com/timrodenbroeker&quot;&gt;&lt;strong&gt;Tim Rodenbröker&lt;/strong&gt;&lt;/a&gt; is considered one of the best generative artists and creative programmers, and does a wonderful job of explaining how to set up your local environment to build in p5.js using VS Code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=vj9nDja8ZdQ&quot; title=&quot;Blinking LEDs&quot;&gt;&lt;img src=&quot;https://images2.imgbox.com/d7/d8/cH6Ni2Cl_o.png&quot; alt=&quot;Blinking LEDs&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once you set that up, you&#39;ll be on your way to building projects on your local machine instead of relying on the online editor.&lt;/p&gt;
+&lt;p&gt;The sky is the limit when it comes to what you want to create, although it wouldn&#39;t hurt to brainstorm some ideas or search the web for inspiration before jumping right in. To visualize an example of that I&#39;ll show you what I have been playing with as of late&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/9f/b9/9WBjLP2b_o.gif&quot; alt=&quot;&amp;quot;color grid&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;What you&#39;re seeing is a piece of generative art created using p5.js and displyed in HTML. I got the inspiration from a few projects I&#39;ve seen online, and expanded on the features of the grid itself without compromising it&#39;s basic structure.&lt;/p&gt;
+&lt;p&gt;While it appears that it is moving on its own without any additional input from me, this piece of code is the one that&#39;s resposible for the &amp;quot;randomness&amp;quot; you&#39;re seeing in the screenshot:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/aa/06/RU2CSMir_o.png&quot; alt=&quot;&amp;quot;code snippet&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, you&#39;ll see the word random appears three times. The first two times the random function is declared to control the individual cells on the x and y coordinates, and the third time determines the colors defined in the array I set for the squares. In p5, when the random function is called, it returns a random value every time. This is what we want if we&#39;re trying to create visual pieces without any predetermined values defined in your code.&lt;/p&gt;
+&lt;p&gt;For more of a look at the rest of the code you can check out my repo &lt;a href=&quot;https://github.com/nycbeardo/p5colours&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt; and take a shot at creating your own version if you choose.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -100,6 +529,33 @@
     <link href="https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/"/>
     <updated>2022-01-11T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2022/Building-User-Enabled-Dark-Mode/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Using CSS and a bit of Javascript magic&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;At some point I decided I wanted a different look for my site without going through the process of building out a whole new theme for it.
+With that in mind, I wanted to accomplish two things:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media3.giphy.com/media/DxqtKPX2raC83hZRtS/giphy.gif?cid=ecf05e4777b3kfmci7jmq2rdsum3n8n3k17sunwskr79au34&amp;amp;rid=giphy.gif&amp;amp;ct=g&quot; alt=&quot;simple&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Goal one: KISS (Keep It Simple Stupid):&lt;/h3&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+You probably heard this before either online or from other devs. It&#39;s self explanatory. I kept this in mind when I wrote down exactly how I wanted this feature implemented.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://media1.giphy.com/media/3miMttP8bhKwjoms69/giphy.gif?cid=ecf05e47xfpn167yqwtl4ko75mydv58ov4o2qxnx9wr4l0t0&amp;amp;rid=giphy.gif&amp;amp;ct=g&quot; alt=&quot;button press&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Goal two: Make it User-Friendly:&lt;/h3&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+This was important as I wanted to keep the user in mind. When you visit my site, you don&#39;t have to feel forced to view it in one theme. I kept in mind the fact that there are some dark mode haters out here lurking on the web, as well as people who may want to read it in a normal light mode for whatever reason they choose. You have a choice. No need to feel locked in.
+&lt;br /&gt;
+&lt;br /&gt;
+That being said, the easiest way to make this work was to make a button and write some script with functions that would trigger a shift when the user clicks on the button. 
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/1c/6e/eMJlKXTo_o.png&quot; alt=&quot;darkmode&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As you see the function darkToggle has two functions that will be called when the button is clicked. Mode() will trigger as soon as the user clicks the button for dark/light mode while Toggle() will save the user&#39;s choice in localStorage and when the page is reloaded the script will fetch the selected mode, applying it in your browser.&lt;/p&gt;
+&lt;p&gt;Styling was pretty easy as it required adding additional selectors in CSS whose elements are targeted by the script written, defining what that should look like when the user clicks on the button.&lt;/p&gt;
+&lt;p&gt;I mostly stayed within the rules of Brutalist design, which calls for links to be made obvious through the use of easy-to-read fonts, no pretty pictures, just words.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/7e/55/umEGZih4_o.png&quot; alt=&quot;darkmode2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And that&#39;s it. My repo shows more details about implementation. Recently I switched over to compiling in SASS so that my site builds it out as CSS but the concept is pretty much the same and easy to read. Hit up the Github link to take a look.&lt;/p&gt;
+</content>
     </entry>
   
   <entry>
@@ -107,5 +563,18 @@
     <link href="https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/"/>
     <updated>2022-02-09T00:00:00Z</updated>
     <id>https://objector.netlify.app/posts/2022/The-Urge-To-Disconnect/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Plug in, Plug out&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;A quick thought...&lt;/p&gt;
+&lt;p&gt;Is anyone else worried about how connected we have been since the pandemic?&lt;/p&gt;
+&lt;p&gt;Lately, it seems like that.&lt;/p&gt;
+&lt;p&gt;Almost all of us are part of an online community. It’s fun, great for networking, even building allyship, but it has now become noise.&lt;/p&gt;
+&lt;p&gt;And yes there is such thing as connection fatigue.&lt;/p&gt;
+&lt;p&gt;So the question is what do we do about it without losing touch with our online friends?&lt;/p&gt;
+&lt;p&gt;I can’t speak for you, but I can tell you my remedy for this has been to connect in small doses. An hr or just a few mins will do. This helps to give my eyes, and most importantly my mind a break. I know I’m not really missing anything and I can always come back to it.&lt;/p&gt;
+&lt;p&gt;Now, this would’ve been the part where I share a Sp@tify playlist but it’s Black History Month, and given recent developments, I’m not with the shenanigans.&lt;/p&gt;
+&lt;p&gt;Stay safe friends.&lt;/p&gt;
+</content>
     </entry>
 </feed>
