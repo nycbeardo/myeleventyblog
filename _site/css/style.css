@@ -150,6 +150,7 @@ header a#current {
 .link--home {
   flex-grow: 1;
   font-size: 1.3em;
+  text-align: left;
   font-weight: 900;
   width: auto;
 }
