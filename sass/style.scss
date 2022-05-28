@@ -164,41 +164,44 @@ header {
 
 
 .header ul li a {
-	padding: 16px;
+	padding: 8px;
 	display: block;
 }
 .link--home {
 	display: block;
-	padding: 0 16px;
-	font-size: 1.5rem;
+	padding: 0 8px;
+	font-size: 24px;
 	flex-grow: 1;
 }
 .link--blog {
-	padding: 16px;
+	padding: 8px;
 	display: block;
 	flex-grow: 1;
+	font-size: 0.75rem;
 	
-	width: auto;
+	
 }
 .link--about {
-	padding: 16px;
+	padding: 8px;
 	display: block;
 	flex-grow: 1;
+	font-size: 0.75rem;
 	
-	width: auto;
+	
 }
 .link--experiments {
-	padding: 16px;
+	padding: 8px;
 	display: block;
 	flex-grow: 1;
+	font-size: 0.75rem;
 	
-	width: auto;
+	
 }
 
 .link--footer {
 	flex-grow: 1;
 	font-size: 1em;
-	width: auto;
+	
 }
 .last-text {
 	font-size: 1.5em;
