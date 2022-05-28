@@ -65,6 +65,7 @@ body {
 	header {
 		display: flex;
 		align-items: center;
+		padding: 4px 16px;
 		color: #7c0b14;
 		background-color: white;
 		border: 8px solid #7c0b14;
@@ -171,6 +172,7 @@ header {
 	display: block;
 	padding: 0 8px;
 	font-size: 24px;
+	font-weight: 900;
 	flex-grow: 1;
 }
 .link--blog {
@@ -178,6 +180,7 @@ header {
 	display: block;
 	flex-grow: 1;
 	font-size: 0.75rem;
+	font-weight: 600;
 	
 	
 }
@@ -186,6 +189,7 @@ header {
 	display: block;
 	flex-grow: 1;
 	font-size: 0.75rem;
+	font-weight: 600;
 	
 	
 }
@@ -194,6 +198,7 @@ header {
 	display: block;
 	flex-grow: 1;
 	font-size: 0.75rem;
+	font-weight: 600;
 	
 	
 }
