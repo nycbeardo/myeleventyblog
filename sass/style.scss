@@ -65,12 +65,19 @@ body {
 	header {
 		display: flex;
 		align-items: center;
-		padding: 5px 16px;
 		color: #7c0b14;
 		background-color: white;
 		border: 8px solid #7c0b14;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 		font-family: 'IBM Plex Mono', monospace;
+	}
+
+	header ul {
+		margin: 0%;
+		padding: 0%;
+		list-style-type: none;
+		display: flex;
+		align-items: center;
 	}
 }
 h1#about {
@@ -156,39 +163,30 @@ header {
 /*  -----------------END OF DARK MODE THEME------------------------------- */
 
 .link--home {
-	flex-grow: 1;
-	font-size: 1.3em;
-	text-align: left;
-	font-weight: 900;
-  width: auto;
+	display: block;
+	padding: 0 24px;
+	font-size: 1.5rem;
+	
 }
 .link--blog {
-	flex-grow: 1;
-	font-size: 0.7em;
-	text-align: right;
-	font-weight: 700;
-  width: auto;
+	padding: 24px;
+	display: block;
+	
 }
 .link--about {
-	flex-grow: 1;
-	font-size: 0.7em;
-	text-align: right;
-	font-weight: 700;
-  width: auto;
+	padding: 24px;
+	display: block;
+	
 }
 .link--experiments {
-	flex-grow: 1;
-	font-size: 0.7em;
-	text-align: right;
-	font-weight: 700;
-  width: auto;
+	padding: 24px;
+	display: block;
+	
 }
 .link--faves {
-	flex-grow: 1;
-	font-size: 0.7em;
-	text-align: right;
-	font-weight: 700;
-  width: auto;
+	padding: 24px;
+	display: block;
+	
 }
 .link--footer {
 	flex-grow: 1;
