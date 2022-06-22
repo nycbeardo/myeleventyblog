@@ -4,7 +4,7 @@
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
   <link href="https://objector.netlify.app/feed.xml" rel="self"/>
   <link href="https://objector.netlify.app/"/>
-  <updated>2022-02-09T00:00:00Z</updated>
+  <updated>2022-06-21T00:00:00Z</updated>
   <id>https://objector.netlify.app/</id>
   <author>
     <name>Montique Stevens</name>
@@ -576,5 +576,29 @@ That being said, the easiest way to make this work was to make a button and writ
 &lt;p&gt;Now, this would’ve been the part where I share a Sp@tify playlist but it’s Black History Month, and given recent developments, I’m not with the shenanigans.&lt;/p&gt;
 &lt;p&gt;Stay safe friends.&lt;/p&gt;
 </content>
+    </entry>
+  
+  <entry>
+    <title>The State of Things</title>
+    <link href="https://objector.netlify.app/posts/2022/the-state-of-things/"/>
+    <updated>2022-06-21T00:00:00Z</updated>
+    <id>https://objector.netlify.app/posts/2022/the-state-of-things/</id>
+    <content type="html">&lt;!-- Excerpt Start --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;I gave myself some much-needed time to breathe...&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;!-- Excerpt End --&gt;
+&lt;p&gt;It&#39;s been quiet for a while and for a good reason.&lt;/p&gt;
+&lt;p&gt;Since the beginning of the year, I gave myself some much-needed time to breathe and not get lost in the craziness that is tech and the toxicity that can brew up online.&lt;/p&gt;
+&lt;p&gt;In doing so, I have been able to enjoy life off the keyboard and away from a code editor. At least on the weekends.&lt;/p&gt;
+&lt;p&gt;Given the state of the world and how everyone seems to be exhausted from COVID, The Great Resignation, and numerous other crises it shouldn&#39;t be surprising.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/rMdcHSkJKOhW0/giphy.gif&quot; alt=&quot;blockage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With that being said, after coming off of a quiet Spring and rolling into Summer, I have recommitted myself to doing more outside learning and fun projects which if you follow me on Twitter you will see soon enough. You will eventually see more JAMstack, p5js, and CSS related posts here as I try to build in public more.&lt;/p&gt;
+&lt;p&gt;Learning in public is one way to hold yourself accountable for doing it and who knows, you may get help along the way or help someone else. Just be sure to avoid the trolls and the tech influencers if you can. We&#39;ll see what happens when I retake the plunge.&lt;/p&gt;
+&lt;p&gt;Now that we got that out the way, in the spirit of learning and growing as a developer and in general here are a few links that have helped me to recover from this creative blockage. Hopefully they will help you or someone else dealing with the same issues.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tommcfarlin.com/developers-block/&quot;&gt;Overcoming Developer’s Block&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@obaid/the-developers-block-45f1a053e5f5&quot;&gt;The Developer’s Block&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.rollingstone.com/culture-council/articles/finding-your-rhythm-as-creative-1369517/&quot;&gt;Finding Your Rhythm as a Creative&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thegameofcreativity.com/blogs/ideas/what-is-creative-block&quot;&gt;What Is Creative Block?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And since House music is &amp;quot;hot&amp;quot; again (its always been hot smh), here&#39;s a playlist to uplift you this week. Enjoy.&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/4Q8E542YT2meL3GfGhzhKd?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;380&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;</content>
     </entry>
 </feed>
