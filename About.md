@@ -8,8 +8,8 @@ layout: base-layout.njk
 <br>
 <h2>Who Am I?</h2>
 <br>
-<p>As a <span class="realistic-marker-highlight">Creative Technologist</span> based in New York City, my passions/areas of focus include <span class="realistic-marker-highlight">web development,</span> 
- creative coding, interface design, and tech design education for underrepresented groups.</p>
+<p>As a <span class="realistic-marker-highlight">Frontend Technologist</span> based in Brooklyn NY, my passions/areas of focus include <span class="realistic-marker-highlight">web development,</span> 
+ creative coding, interface design, and tech education for underrepresented groups.</p>
 <h2>Credence</h2>
 <br>
 I believe in the idea that good design and accessible technology that is easy to use, provides a enjoyable experience and most importantly has <span class="realistic-marker-highlight">social impact</span> for society at large.
