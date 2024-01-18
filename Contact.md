@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 4
 ---
 
-<h1 id="contact">Contact Me</h1>
+<h1 id="contact">Contact</h1>
 
  If you want to reach out directly about the content here, to collaborate, or anything else, fill out the form below:
 
