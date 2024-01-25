@@ -9,7 +9,7 @@ eleventyNavigation:
 
 <h1 id="contact">Contact</h1>
 
- If you want to reach out directly about the content here, to collaborate, or anything else, fill out the form below:
+ If you want to reach out, please fill out the form below:
 
 
 <div class="form">
