@@ -6,7 +6,7 @@ const Image = require("@11ty/eleventy-img");
 const path = require('path');
 const pluginRss = require("@11ty/eleventy-plugin-rss"); // rss feed
 const pluginTailwindCSS = require("eleventy-plugin-tailwindcss");
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help"); // keep @11ty version up to date
+// const UpgradeHelper = require("@11ty/eleventy-upgrade-help"); // keep @11ty version up to date
 
 
 
@@ -93,7 +93,7 @@ module.exports = (eleventyConfig) => {
   // === Liquid needed if `markdownTemplateEngine` **isn't** changed from Eleventy default
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
-  eleventyConfig.addPlugin(UpgradeHelper);
+  // eleventyConfig.addPlugin(UpgradeHelper); //
 
 
 
