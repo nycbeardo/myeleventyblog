@@ -8,23 +8,10 @@ pagination:
 ---
 <br>
 <br>
-<p id="subtitle">A digital moodboard and site by Montique Stevens</p>
-<p id="subtitle1">Mostly musings on being a technologist, what inspires me, and assorted randomness.</p>
 <br>
 
-{% for post in posts %}
-  <article>
-
-    <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
-
-    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-
-    {% excerpt post %}
 
 
-    
+<p>I'm Montique, a NYC-based Frontend Engineer who loves creating artful, fluid, and highly functional things online.</p>
 
-  </article>
-{% endfor %}
+<p>Open to remote work and collaborating on projects that promote positive social impact through the intersection of information design, multimedia computing, and technology</p>

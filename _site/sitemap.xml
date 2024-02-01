@@ -59,7 +59,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/About/</loc>
+    <loc>/Info/</loc>
     <lastmod>2020-08-14T07:13:04.347Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -83,7 +83,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/Contact/</loc>
+    <loc>/Blog/</loc>
     <lastmod>2021-10-15T20:50:01.066Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

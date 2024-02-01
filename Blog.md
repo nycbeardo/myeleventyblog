@@ -1,0 +1,30 @@
+---
+layout: base-layout.njk
+pagination:
+  data: collections.post
+  size: 15
+  reverse: true
+  alias: posts
+---
+<br>
+<br>
+<p id="subtitle">A digital moodboard and site by Montique Stevens</p>
+<p id="subtitle1">Mostly musings on being a technologist, what inspires me, and assorted randomness.</p>
+<br>
+
+{% for post in posts %}
+  <article>
+
+    <h1>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h1>
+
+    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+
+    {% excerpt post %}
+
+
+    
+
+  </article>
+{% endfor %}
