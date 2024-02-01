@@ -481,4 +481,8 @@ div.iframe-container {
   padding: 0 0.25em;
 }
 
+p.yearlist {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
