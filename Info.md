@@ -6,7 +6,7 @@ layout: base-layout.njk
 
 <br>
 <br>
-<p>As a <span class="realistic-marker-highlight">Frontend Technologist</span> based in Brooklyn NY, my areas of focus include interface design, JAMStack/SSG development, practical usage of CSS,
+<p>As a Frontend Technologist</span> based in Brooklyn NY, my areas of focus include interface design, JAMStack/SSG development, practical usage of CSS,
  generative art, and tech education for underrepresented groups.</p>
 <br>
 I believe in the idea that good design and accessible technology should be easy to use, provides a enjoyable experience and most importantly provides positive <span class="realistic-marker-highlight">social impact</span> in our communities.
