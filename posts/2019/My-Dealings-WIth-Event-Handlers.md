@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: My Dealings with Event Handlers
 date: 2019-08-30
-tags: 'post'
+tags: 
+    - post
+    - tech
 ---
 
 ***As you may or may not know,  I am currently on my journey to becoming better at JavaScript and React.***

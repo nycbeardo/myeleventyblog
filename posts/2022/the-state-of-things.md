@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: The State of Things
 date: 2022-06-21
-tags: 'post'
+tags: 
+    - post
+    - misc
 ---
 
 <!-- Excerpt Start -->

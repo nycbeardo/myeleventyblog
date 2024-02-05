@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: The Psychology Of Color
 date: 2019-11-30
-tags: 'post'
+tags: 
+    - post
+    - design
 ---
 
 ## ***"The colors can make or break your design"***

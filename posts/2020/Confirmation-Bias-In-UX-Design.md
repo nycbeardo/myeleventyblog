@@ -2,7 +2,10 @@
 layout: post-layout.njk 
 title: Confirmation Bias In UX Design
 date: 2020-03-19
-tags: 'post'
+tags: 
+    - post
+    - design
+    - tech
 ---
 ## This is part 1 of a two-part series on topics related to "Bias in Design"
 

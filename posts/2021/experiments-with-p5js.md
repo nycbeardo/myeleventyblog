@@ -2,7 +2,10 @@
 layout: post-layout.njk 
 title: Color Experiments with p5.js
 date: 2021-12-06
-tags: 'post'
+tags: 
+    - post
+    - tech
+    - art
 ---
 <!-- Excerpt Start -->
 ***Continuing my focus on improving my skillset through creative coding...***

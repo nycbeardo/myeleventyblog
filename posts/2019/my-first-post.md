@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: My First Post
 date: 2019-08-14
-tags: 'post'
+tags: 
+    - post
+    - tech
 ---
 
 <!-- Excerpt Start -->

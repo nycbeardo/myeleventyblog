@@ -114,6 +114,7 @@ header a#current {
   /* footer attributes */
   /* links in paragrpahs */
   /* theme for dark mode toggle */
+  /* theme for blog tags */
 }
 .dark header {
   background-color: black;
@@ -150,6 +151,9 @@ header a#current {
   background-color: #B42B51;
   color: white;
   border: 2px solid white;
+}
+.dark a.tags {
+  color: #e3557d;
 }
 
 /*  -----------------END OF DARK MODE THEME------------------------------- */
@@ -483,6 +487,11 @@ div.iframe-container {
 
 p.yearlist {
   text-decoration: underline;
+}
+
+a.tags {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

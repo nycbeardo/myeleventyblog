@@ -2,7 +2,10 @@
 layout: post-layout.njk 
 title: Topics To Consider in User Interface Design
 date: 2019-09-18
-tags: 'post'
+tags: 
+    - post
+    - design
+    - tech
 ---
 
 <!-- Excerpt Start -->

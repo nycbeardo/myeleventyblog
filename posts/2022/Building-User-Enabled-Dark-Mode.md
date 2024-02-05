@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: Building User Enabled Dark Mode
 date: 2022-01-11
-tags: 'post'
+tags: 
+    - tech
+    - post
 ---
 <!-- Excerpt Start -->
 ***Using CSS and a bit of Javascript magic***

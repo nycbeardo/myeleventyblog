@@ -2,7 +2,9 @@
 layout: post-layout.njk 
 title: Cognitive Science in User Interface Design (Part 1)
 date: 2019-09-12
-tags: 'post'
+tags:  
+    - post
+    - design
 ---
 
 <!-- Excerpt Start -->

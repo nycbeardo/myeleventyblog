@@ -160,6 +160,13 @@ header {
 		color: white;
 		border: 2px solid white;
 	}
+
+
+	/* theme for blog tags */
+
+	a.tags {
+		color: #e3557d;
+	}
 }
 /*  -----------------END OF DARK MODE THEME------------------------------- */
 
@@ -491,4 +498,9 @@ div.iframe-container {
 
 p.yearlist {
 	text-decoration: underline;
+}
+
+a.tags {
+	text-decoration: none;
+	font-weight: bold;
 }
