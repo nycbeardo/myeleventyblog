@@ -83,12 +83,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/Blog/</loc>
-    <lastmod>2021-10-15T20:50:01.066Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>/experiments/</loc>
     <lastmod>2021-10-15T20:50:01.067Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -125,8 +119,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/Blog/</loc>
+    <lastmod>2024-02-05T19:56:18.432Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/blog/tag/post/</loc>
-    <lastmod>2024-02-03T18:53:54.939Z</lastmod>
+    <lastmod>2024-02-05T19:58:55.250Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

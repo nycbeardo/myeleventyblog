@@ -8,7 +8,7 @@ pagination:
 ---
 <br>
 <br>
-<p id="subtitle">Welcome to my blog/digital moodboard</p>
+<p id="subtitle">Welcome to my blog</p>
 <p id="subtitle1">This is where you'll see my musings on being a technologist. I blog about the things I learn, what inspires me, and an assortment of randomness.</p>
 <br>
 
