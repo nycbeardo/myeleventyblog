@@ -59,18 +59,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/Info/</loc>
-    <lastmod>2020-08-14T07:13:04.347Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-08-14T07:13:04.400Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>/posts/2020/Combating-Racial-Bias-in-UX-Design/</loc>
     <lastmod>2020-08-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -83,20 +71,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/experiments/</loc>
-    <lastmod>2021-10-15T20:50:01.067Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>/posts/2021/experiments-with-p5js/</loc>
     <lastmod>2021-12-06T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/README/</loc>
-    <lastmod>2022-01-02T04:32:28.064Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -120,13 +96,37 @@
   </url>
   <url>
     <loc>/Blog/</loc>
-    <lastmod>2024-02-05T19:56:18.432Z</lastmod>
+    <lastmod>2024-02-28T19:17:55.727Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/Info/</loc>
+    <lastmod>2024-02-28T19:17:55.727Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/README/</loc>
+    <lastmod>2024-02-28T19:17:55.728Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/experiments/</loc>
+    <lastmod>2024-02-28T19:17:57.023Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2024-02-28T19:17:57.170Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/blog/tag/post/</loc>
-    <lastmod>2024-02-05T19:58:55.250Z</lastmod>
+    <lastmod>2024-02-28T19:18:01.922Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
