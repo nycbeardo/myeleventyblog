@@ -515,13 +515,13 @@ You probably heard this before either online or from other devs. It&#39;s self e
 This was important as I wanted to keep the user in mind. When you visit my site, you don&#39;t have to feel forced to view it in one theme. I kept in mind the fact that there are some dark mode haters out here lurking on the web, as well as people who may want to read it in a normal light mode for whatever reason they choose. You have a choice. No need to feel locked in.
 &lt;br /&gt;
 &lt;br /&gt;
-That being said, the easiest way to make this work was to make a button and write some script with functions that would trigger a shift when the user clicks on the button. 
+&lt;p&gt;The simplest approach to achieve this functionality was to create a button and write a script with functions that trigger the shift when the button is clicked.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/1c/6e/eMJlKXTo_o.png&quot; alt=&quot;darkmode&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;As you see the function darkToggle has two functions that will be called when the button is clicked. Mode() will trigger as soon as the user clicks the button for dark/light mode while Toggle() will save the user&#39;s choice in localStorage and when the page is reloaded the script will fetch the selected mode, applying it in your browser.&lt;/p&gt;
-&lt;p&gt;Styling was pretty easy as it required adding additional selectors in CSS whose elements are targeted by the script written, defining what that should look like when the user clicks on the button.&lt;/p&gt;
-&lt;p&gt;I mostly stayed within the rules of Brutalist design, which calls for links to be made obvious through the use of easy-to-read fonts, no pretty pictures, just words.&lt;/p&gt;
+&lt;p&gt;When the &lt;code&gt;darkToggle&lt;/code&gt; function is invoked by clicking the button, it performs two actions. The &lt;code&gt;Mode()&lt;/code&gt; function switches the interface between dark and light modes instantly upon the user&#39;s click. Meanwhile, the &lt;code&gt;Toggle()&lt;/code&gt; function saves the user&#39;s preference in &lt;code&gt;localStorage&lt;/code&gt;, ensuring that the chosen mode is retained and reapplied when the page is reloaded.&lt;/p&gt;
+&lt;p&gt;Styling this feature was straightforward. It involved adding extra selectors in the CSS to target elements modified by the script, specifying their appearance based on the user&#39;s selection.&lt;/p&gt;
+&lt;p&gt;I adhered mostly to the principles of Brutalist design, which emphasizes clear, readable fonts and straightforward links without decorative images, focusing solely on text.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://images2.imgbox.com/7e/55/umEGZih4_o.png&quot; alt=&quot;darkmode2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;And that&#39;s it. My repo shows more details about implementation. Recently I switched over to compiling in SASS so that my site builds it out as CSS but the concept is pretty much the same and easy to read. Hit up the Github link to take a look.&lt;/p&gt;
+&lt;p&gt;And that&#39;s it! For more detailed implementation, check out my repository. Recently, I&#39;ve switched to using SASS for compiling my CSS, making the site build process more streamlined while maintaining readability. Feel free to explore the GitHub link for a closer look.&lt;/p&gt;
 </content>
     </entry>
   
