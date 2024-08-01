@@ -57,7 +57,7 @@ body {
   margin: 0, auto;
   padding: 10px 8px;
   font-size: 19px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   background-size: 400% 400%;
   -webkit-animation: AnimationName 10s ease infinite;
@@ -71,7 +71,7 @@ body header {
   background-color: white;
   border: 8px solid #7c0b14;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Open Sans", sans-serif;
 }
 body header ul {
   margin: 0%;
@@ -201,6 +201,7 @@ header a#current {
 
 .last-text {
   font-size: 1.5em;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -231,11 +232,10 @@ p img {
   position: relative;
   left: 100%;
   transform: translateX(-100%);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  font-family: "IBM Plex Mono", monospace;
   margin: 25px 0 2px 0;
   font-size: 1.5em;
 }
@@ -266,9 +266,10 @@ footer {
 }
 
 h2 {
-  font-family: "IBM Plex Mono", monospace;
-  margin: 25px 0 2px 0;
-  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  margin: 25px 0 2px 0 !important;
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
 }
 
 a {
@@ -295,11 +296,26 @@ article img {
 }
 
 h3 {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
 h3.tagtitle {
+  font-family: "Open Sans", sans-serif;
   text-align: inherit;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  margin: 25px 0 2px 0 !important;
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+}
+
+p.info {
+  font-family: "Open Sans", sans-serif;
+  margin: 25px 0 2px 0 !important;
+  font-size: 1.5em !important;
 }
 
 #lab_social_icon_footer {
