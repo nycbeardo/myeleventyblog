@@ -1,0 +1,16 @@
+{
+	"markdown": {
+  "prefix": "mdtemplete",
+  "body": [
+    "---",
+    "layout: post-layout.njk ",
+    "title: ",
+    "date: ",
+    "tags: ",
+    "    - ",
+    "    - ",
+    "---"
+  ],
+  "description": "markdown"
+}
+}
