@@ -1,6 +1,6 @@
 ---
-layout: post-layout.njk 
-title: Regroup...
+layout: post-layout.njk
+title: Regroup
 date: 2024-08-02
 tags: 
     - misc
