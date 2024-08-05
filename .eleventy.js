@@ -79,12 +79,12 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("/custom.js");
   eleventyConfig.addPassthroughCopy("/cursor.js");
 
-  eleventyConfig.addPlugin(pluginTailwindCSS, {
-    src: "src/css/site.css",
-    dest: "css",
-    keepFolderStructure: false,
-    minify: false,
-  });
+  // eleventyConfig.addPlugin(pluginTailwindCSS, {
+  // src: "src/css/site.css",
+  // dest: "css",
+  // keepFolderStructure: false,
+  //  minify: false,
+  // }); //
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
@@ -145,3 +145,4 @@ function extractExcerpt(article) {
 
   return excerpt;
 }
+
