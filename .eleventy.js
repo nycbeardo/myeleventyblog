@@ -1,46 +1,47 @@
-const moment = require('moment');
+const moment = require("moment");
 
-moment.locale('en');
+moment.locale("en");
 
 const Image = require("@11ty/eleventy-img");
-const path = require('path');
+const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss"); // rss feed
-const pluginTailwindCSS = require("eleventy-plugin-tailwindcss");
 // const UpgradeHelper = require("@11ty/eleventy-upgrade-help"); // keep @11ty version up to date
 
-
-
 async function imageShortcode(src, alt) {
-  let sizes = "(min-width: 900px) 100vw, 50vw" // Default sizes for mobile and desktop viewing
-  let srcPrefix = `./_site/images/`
-  src = srcPrefix + src
-  console.log(`Generating image(s) from:  ${src}`)
-  if(alt === undefined) {
+  let sizes = "(min-width: 900px) 100vw, 50vw"; // Default sizes for mobile and desktop viewing
+  let srcPrefix = `./_site/images/`;
+  src = srcPrefix + src;
+  console.log(`Generating image(s) from:  ${src}`);
+  if (alt === undefined) {
     // Throw an error on missing alt (alt="" works okay)
-    throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
-  }  
+    throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
+  }
   let metadata = await Image(src, {
     widths: [600, 900, 1500],
-    formats: [ 'gif', 'jpeg', 'png'],
+    formats: ["gif", "jpeg", "png"],
     urlPath: "/images/",
-    outputDir: "./_site/images/",//
-   
- 
+    outputDir: "./_site/images/", //
 
     /* path + resulting image file name is dealt with in this function */
     filenameFormat: function (id, src, width, format, options) {
-      const extension = path.extname(src)
-      const name = path.basename(src, extension)
-      return `${name}-${width}w.${format}`
-    }
-  })  
-  let lowsrc = metadata.jpeg[0]
-  let highsrc = metadata.jpeg[metadata.jpeg.length - 1]  
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `${name}-${width}w.${format}`;
+    },
+  });
+  let lowsrc = metadata.jpeg[0];
+  let highsrc = metadata.jpeg[metadata.jpeg.length - 1];
   /* output image file and resulting <tag>, will be shown in html files */
   return `<picture>
-    ${Object.values(metadata).map(imageFormat => {
-      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
-    }).join("\n")}
+    ${Object.values(metadata)
+      .map((imageFormat) => {
+        return `  <source type="${
+          imageFormat[0].sourceType
+        }" srcset="${imageFormat
+          .map((entry) => entry.srcset)
+          .join(", ")}" sizes="${sizes}">`;
+      })
+      .join("\n")}
     <img
       src="${lowsrc.url}"
       width="${highsrc.width}"
@@ -48,27 +49,24 @@ async function imageShortcode(src, alt) {
       alt="${alt}"
       loading="lazy"
       decoding="async">
-  </picture>`
+  </picture>`;
 }
-
-
 
 // module.exports, add lines needed for each plugin to work properly
 module.exports = (eleventyConfig) => {
-
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
-  eleventyConfig.addFilter('dateIso', date => {
+  eleventyConfig.addFilter("dateIso", (date) => {
     return moment(date).toISOString();
   });
 
-  eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).utc().format('LL'); // E.g. May 31, 2019
+  eleventyConfig.addFilter("dateReadable", (date) => {
+    return moment(date).utc().format("LL"); // E.g. May 31, 2019
   });
 
-  eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
+  eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article));
 
   eleventyConfig.addWatchTarget("./sass/");
 
@@ -85,7 +83,7 @@ module.exports = (eleventyConfig) => {
     src: "src/css/site.css",
     dest: "css",
     keepFolderStructure: false,
-    minify: false
+    minify: false,
   });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
@@ -94,14 +92,13 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   // eleventyConfig.addPlugin(UpgradeHelper); //
-
-
-
 };
 
 function extractExcerpt(article) {
-  if (!article.hasOwnProperty('templateContent')) {
-    console.warn('Failed to extract excerpt: Document has no property "templateContent".');
+  if (!article.hasOwnProperty("templateContent")) {
+    console.warn(
+      'Failed to extract excerpt: Document has no property "templateContent".'
+    );
     return null;
   }
 
@@ -110,11 +107,11 @@ function extractExcerpt(article) {
 
   // The start and end separators to try and match to extract the excerpt
   const separatorsList = [
-    { start: '<!-- Excerpt Start -->', end: '<!-- Excerpt End -->' },
-    { start: '<p>', end: '</p>' }
+    { start: "<!-- Excerpt Start -->", end: "<!-- Excerpt End -->" },
+    { start: "<p>", end: "</p>" },
   ];
 
-  separatorsList.some(separators => {
+  separatorsList.some((separators) => {
     const startPosition = content.indexOf(separators.start);
 
     // This end position could use "lastIndexOf" to return all the paragraphs rather than just the first
@@ -122,34 +119,29 @@ function extractExcerpt(article) {
     const endPosition = content.indexOf(separators.end);
 
     if (startPosition !== -1 && endPosition !== -1) {
-      excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
+      excerpt = content
+        .substring(startPosition + separators.start.length, endPosition)
+        .trim();
       return true; // Exit out of array loop on first match
     }
   });
 
-
-
-
-let markdownIt = require("markdown-it");
-let options = {
+  let markdownIt = require("markdown-it");
+  let options = {
     // whatever options you have set for the library here
   };
-let mdfigcaption = require('markdown-it-image-figures');
-let figoptions = {
-    figcaption: true
-};
+  let mdfigcaption = require("markdown-it-image-figures");
+  let figoptions = {
+    figcaption: true,
+  };
 
-const mdLib = markdownIt(options).use(mdfigcaption, figoptions);
+  const mdLib = markdownIt(options).use(mdfigcaption, figoptions);
 
-module.exports = function (config) {
+  module.exports = function (config) {
     //other config here
-    
+
     config.setLibrary("md", mdLib);
-}
-
-
-
-
+  };
 
   return excerpt;
 }
