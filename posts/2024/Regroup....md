@@ -20,9 +20,12 @@ And in the spirit of it being Friday, I leave you with a few of the things on th
 
 1. [Stop Doing Tutorials. Learn Programming Like This](https://python.plainenglish.io/stop-doing-tutorials-learn-programming-like-this-5bbaf362b6dc)
 
+
 2. [How to Maximize Your Tomorrow By Preparing Today](https://medium.com/calendar/how-to-maximize-your-tomorrow-by-preparing-today-b3847c3e3d86)
 
+
 3. [About page concept by Monogrid](https://www.awwwards.com/inspiration/about-us-monogrid-com)
+
 
 4. [PLAIN Generator Teaser](https://dribbble.com/shots/20186036-PLAIN-Generator-Teaser)
 
