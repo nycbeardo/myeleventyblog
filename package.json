@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^3.1.8",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "moment": "^2.27.0",
@@ -28,5 +28,6 @@
     "fast-xml-parser": "^4.4.1",
     "markdown-it-image-figures": "^1.2.0",
     "upgrade-node-modules": "^1.2.1"
-  }
+  },
+  "keywords": []
 }
