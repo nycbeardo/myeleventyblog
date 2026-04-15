@@ -25,7 +25,7 @@
     "sass": "^1.47.0"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.4.1",
+    "fast-xml-parser": "^5.3.4",
     "markdown-it-image-figures": "^1.2.0",
     "upgrade-node-modules": "^1.2.1"
   },
