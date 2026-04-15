@@ -468,4 +468,10 @@ a.tags {
   font-weight: bold;
 }
 
+
+div.badges {
+
+  padding: 35px 0 25px 0;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
