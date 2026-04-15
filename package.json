@@ -27,6 +27,7 @@
   "dependencies": {
     "fast-xml-parser": "^5.5.12",
     "markdown-it-image-figures": "^1.2.0",
+    "sharp": "^0.34.5",
     "upgrade-node-modules": "^1.2.1"
   },
   "keywords": []
