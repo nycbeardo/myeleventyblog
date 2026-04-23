@@ -25,8 +25,8 @@
     "sass": "^1.47.0"
   },
   "dependencies": {
-    "fast-xml-parser": "^5.5.12",
-    "markdown-it-image-figures": "^1.2.0",
+    "fast-xml-parser": "^5.7.1",
+    "markdown-it-image-figures": "^2.1.1",
     "sharp": "^0.34.5",
     "upgrade-node-modules": "^1.2.1"
   },
